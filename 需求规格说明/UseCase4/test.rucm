@@ -1,0 +1,5139 @@
+{
+  "lmf.version": "1.1",
+  "reference": [
+    {"path": "<root>.modelElements[25]"},
+    {"path": "<root>.modelElements[23]"},
+    {"path": "<root>.modelElements[24]"},
+    {"path": "<root>.modelElements[0]"},
+    {"path": "<root>.modelElements[21]"},
+    {"path": "<root>.modelElements[5]"},
+    {"path": "<root>.modelElements[6]"},
+    {"path": "<root>.modelElements[7]"},
+    {"path": "<root>.modelElements[8]"},
+    {"path": "<root>.modelElements[22]"},
+    {"path": "<root>.modelElements[1]"},
+    {"path": "<root>.modelElements[2]"},
+    {"path": "<root>.modelElements[14]"},
+    {"path": "<root>.modelElements[4]"},
+    {"path": "<root>.modelElements[15]"},
+    {"path": "<root>.modelElements[37]"},
+    {"path": "<root>.modelElements[41]"},
+    {"path": "<root>.modelElements[20]"},
+    {"path": "<root>"},
+    {"path": "<root>.diagrams[0].nodes[4]"},
+    {"path": "<root>.modelElements[5].include[0]"},
+    {"path": "<root>.diagrams[0].nodes[9]"},
+    {"path": "<root>.modelElements[29]"},
+    {"path": "<root>.diagrams[0].nodes[10]"},
+    {"path": "<root>.diagrams[0].nodes[1]"},
+    {"path": "<root>.diagrams[0].nodes[13]"},
+    {"path": "<root>.modelElements[38]"},
+    {"path": "<root>.modelElements[39]"},
+    {"path": "<root>.diagrams[0].nodes[11]"},
+    {"path": "<root>.modelElements[40]"},
+    {"path": "<root>.diagrams[0].nodes[12]"},
+    {"path": "<root>.modelElements[42]"},
+    {"path": "<root>.diagrams[0].nodes[14]"},
+    {"path": "<root>.modelElements[41].include[0]"},
+    {"path": "<root>.modelElements[41].include[1]"},
+    {"path": "<root>.diagrams[0].nodes[2]"},
+    {"path": "<root>.modelElements[41].include[2]"},
+    {"path": "<root>.diagrams[0].nodes[3]"},
+    {"path": "<root>.modelElements[41].include[3]"},
+    {"path": "<root>.diagrams[0].nodes[6]"},
+    {"path": "<root>.modelElements[41].include[4]"},
+    {"path": "<root>.diagrams[0].nodes[7]"},
+    {"path": "<root>.modelElements[41].include[5]"},
+    {"path": "<root>.modelElements[41].include[6]"},
+    {"path": "<root>.diagrams[0].nodes[5]"},
+    {"path": "<root>.modelElements[41].include[7]"},
+    {"path": "<root>.diagrams[0].nodes[8]"},
+    {"path": "<root>.modelElements[43]"},
+    {"path": "<root>.diagrams[0].nodes[0]"}
+  ],
+  "root": {
+    "type": "UCModel",
+    "content": {
+      "name": {
+        "type": "<string>",
+        "content": "Untitled"
+      },
+      "description": {
+        "type": "<string>",
+        "content": "Input description for this model here."
+      },
+      "modelElements": [
+        {
+          "type": "UseCase",
+          "content": {
+            "name": {
+              "type": "<string>",
+              "content": "链接"
+            },
+            "description": {
+              "type": "<string>",
+              "content": ""
+            },
+            "specification": {
+              "type": "UseCaseSpecification",
+              "content": {
+                "alternativeFlows": [{
+                  "type": "SpecificAlternative",
+                  "content": {
+                    "postCondition": {
+                      "type": "PostCondition",
+                      "content": {
+                        "sentences": [{
+                          "type": "Sentence",
+                          "content": {
+                            "name": {
+                              "type": "<string>",
+                              "content": ""
+                            },
+                            "description": {
+                              "type": "<string>",
+                              "content": ""
+                            },
+                            "content": {
+                              "type": "<string>",
+                              "content": "编译器关闭"
+                            }
+                          }
+                        }],
+                        "name": {
+                          "type": "<string>",
+                          "content": ""
+                        },
+                        "description": {
+                          "type": "<string>",
+                          "content": ""
+                        }
+                      }
+                    },
+                    "rfsSentence": {
+                      "type": "Sentence",
+                      "content": {
+                        "natures": [{
+                          "type": "RFSNature",
+                          "content": {
+                            "flowName": {
+                              "type": "<string>",
+                              "content": ""
+                            },
+                            "segments": [{
+                              "type": "RFSNatureSegment",
+                              "content": {
+                                "toStep": {
+                                  "type": "<int>",
+                                  "content": 2
+                                },
+                                "fromStep": {
+                                  "type": "<int>",
+                                  "content": 2
+                                }
+                              }
+                            }]
+                          }
+                        }],
+                        "name": {
+                          "type": "<string>",
+                          "content": ""
+                        },
+                        "description": {
+                          "type": "<string>",
+                          "content": ""
+                        },
+                        "content": {
+                          "type": "<string>",
+                          "content": "RFS 2"
+                        }
+                      }
+                    },
+                    "name": {
+                      "type": "<string>",
+                      "content": "失败流程"
+                    },
+                    "description": {
+                      "type": "<string>",
+                      "content": ""
+                    },
+                    "steps": [
+                      {
+                        "type": "Sentence",
+                        "content": {
+                          "name": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "description": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "content": {
+                            "type": "<string>",
+                            "content": "编译器打印出错信息"
+                          }
+                        }
+                      },
+                      {
+                        "type": "Sentence",
+                        "content": {
+                          "natures": [{
+                            "type": "AbortNature",
+                            "content": {}
+                          }],
+                          "name": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "description": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "content": {
+                            "type": "<string>",
+                            "content": "ABORT"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }],
+                "name": {
+                  "type": "<string>",
+                  "content": ""
+                },
+                "description": {
+                  "type": "<string>",
+                  "content": ""
+                },
+                "primaryActor": "&0",
+                "preCondition": {
+                  "type": "PreCondition",
+                  "content": {
+                    "sentences": [{
+                      "type": "Sentence",
+                      "content": {
+                        "name": {
+                          "type": "<string>",
+                          "content": ""
+                        },
+                        "description": {
+                          "type": "<string>",
+                          "content": ""
+                        },
+                        "content": {
+                          "type": "<string>",
+                          "content": "得到目标文件"
+                        }
+                      }
+                    }],
+                    "name": {
+                      "type": "<string>",
+                      "content": ""
+                    },
+                    "description": {
+                      "type": "<string>",
+                      "content": ""
+                    }
+                  }
+                },
+                "briefDescription": {
+                  "type": "BriefDescription",
+                  "content": {
+                    "sentences": [{
+                      "type": "Sentence",
+                      "content": {
+                        "name": {
+                          "type": "<string>",
+                          "content": ""
+                        },
+                        "description": {
+                          "type": "<string>",
+                          "content": ""
+                        },
+                        "content": {
+                          "type": "<string>",
+                          "content": "将目标文件进行链接，得到可执行文件"
+                        }
+                      }
+                    }],
+                    "name": {
+                      "type": "<string>",
+                      "content": ""
+                    },
+                    "description": {
+                      "type": "<string>",
+                      "content": ""
+                    }
+                  }
+                },
+                "basicFlow": {
+                  "type": "BasicFlow",
+                  "content": {
+                    "postCondition": {
+                      "type": "PostCondition",
+                      "content": {
+                        "sentences": [{
+                          "type": "Sentence",
+                          "content": {
+                            "name": {
+                              "type": "<string>",
+                              "content": ""
+                            },
+                            "description": {
+                              "type": "<string>",
+                              "content": ""
+                            },
+                            "content": {
+                              "type": "<string>",
+                              "content": "得到可执行文件"
+                            }
+                          }
+                        }],
+                        "name": {
+                          "type": "<string>",
+                          "content": ""
+                        },
+                        "description": {
+                          "type": "<string>",
+                          "content": ""
+                        }
+                      }
+                    },
+                    "name": {
+                      "type": "<string>",
+                      "content": "主流程"
+                    },
+                    "description": {
+                      "type": "<string>",
+                      "content": ""
+                    },
+                    "steps": [
+                      {
+                        "type": "Sentence",
+                        "content": {
+                          "name": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "description": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "content": {
+                            "type": "<string>",
+                            "content": "编译器调用外部链接器，对目标文件和库进行链接"
+                          }
+                        }
+                      },
+                      {
+                        "type": "Sentence",
+                        "content": {
+                          "natures": [{
+                            "type": "ValidateThatNature",
+                            "content": {
+                              "subject": {
+                                "type": "<string>",
+                                "content": "链接器"
+                              },
+                              "object": {
+                                "type": "<string>",
+                                "content": "链接成功"
+                              }
+                            }
+                          }],
+                          "name": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "description": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "content": {
+                            "type": "<string>",
+                            "content": "链接器 VALIDATES THAT 链接成功"
+                          }
+                        }
+                      },
+                      {
+                        "type": "Sentence",
+                        "content": {
+                          "name": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "description": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "content": {
+                            "type": "<string>",
+                            "content": "编译器生成可执行文件"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "type": "UseCase",
+          "content": {
+            "name": {
+              "type": "<string>",
+              "content": "预处理"
+            },
+            "description": {
+              "type": "<string>",
+              "content": ""
+            },
+            "specification": {
+              "type": "UseCaseSpecification",
+              "content": {
+                "alternativeFlows": [
+                  {
+                    "type": "SpecificAlternative",
+                    "content": {
+                      "postCondition": {
+                        "type": "PostCondition",
+                        "content": {
+                          "sentences": [{
+                            "type": "Sentence",
+                            "content": {
+                              "name": {
+                                "type": "<string>",
+                                "content": ""
+                              },
+                              "description": {
+                                "type": "<string>",
+                                "content": ""
+                              },
+                              "content": {
+                                "type": "<string>",
+                                "content": "编译器关闭"
+                              }
+                            }
+                          }],
+                          "name": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "description": {
+                            "type": "<string>",
+                            "content": ""
+                          }
+                        }
+                      },
+                      "rfsSentence": {
+                        "type": "Sentence",
+                        "content": {
+                          "natures": [{
+                            "type": "RFSNature",
+                            "content": {
+                              "flowName": {
+                                "type": "<string>",
+                                "content": ""
+                              },
+                              "segments": [{
+                                "type": "RFSNatureSegment",
+                                "content": {
+                                  "toStep": {
+                                    "type": "<int>",
+                                    "content": 2
+                                  },
+                                  "fromStep": {
+                                    "type": "<int>",
+                                    "content": 2
+                                  }
+                                }
+                              }]
+                            }
+                          }],
+                          "name": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "description": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "content": {
+                            "type": "<string>",
+                            "content": "RFS 2"
+                          }
+                        }
+                      },
+                      "name": {
+                        "type": "<string>",
+                        "content": "失败流程"
+                      },
+                      "description": {
+                        "type": "<string>",
+                        "content": ""
+                      },
+                      "steps": [
+                        {
+                          "type": "Sentence",
+                          "content": {
+                            "name": {
+                              "type": "<string>",
+                              "content": ""
+                            },
+                            "description": {
+                              "type": "<string>",
+                              "content": ""
+                            },
+                            "content": {
+                              "type": "<string>",
+                              "content": "编译器打印出错信息"
+                            }
+                          }
+                        },
+                        {
+                          "type": "Sentence",
+                          "content": {
+                            "natures": [{
+                              "type": "AbortNature",
+                              "content": {}
+                            }],
+                            "name": {
+                              "type": "<string>",
+                              "content": ""
+                            },
+                            "description": {
+                              "type": "<string>",
+                              "content": ""
+                            },
+                            "content": {
+                              "type": "<string>",
+                              "content": "ABORT"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "GlobalAlternative",
+                    "content": {
+                      "postCondition": {
+                        "type": "PostCondition",
+                        "content": {
+                          "sentences": [{
+                            "type": "Sentence",
+                            "content": {
+                              "name": {
+                                "type": "<string>",
+                                "content": ""
+                              },
+                              "description": {
+                                "type": "<string>",
+                                "content": ""
+                              },
+                              "content": {
+                                "type": "<string>",
+                                "content": "编译器关闭"
+                              }
+                            }
+                          }],
+                          "name": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "description": {
+                            "type": "<string>",
+                            "content": ""
+                          }
+                        }
+                      },
+                      "name": {
+                        "type": "<string>",
+                        "content": "全局流"
+                      },
+                      "description": {
+                        "type": "<string>",
+                        "content": ""
+                      },
+                      "conditionSentence": {
+                        "type": "Sentence",
+                        "content": {
+                          "name": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "description": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "content": {
+                            "type": "<string>",
+                            "content": "系统异常"
+                          }
+                        }
+                      },
+                      "steps": [{
+                        "type": "Sentence",
+                        "content": {
+                          "natures": [{
+                            "type": "AbortNature",
+                            "content": {}
+                          }],
+                          "name": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "description": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "content": {
+                            "type": "<string>",
+                            "content": "ABORT"
+                          }
+                        }
+                      }]
+                    }
+                  }
+                ],
+                "name": {
+                  "type": "<string>",
+                  "content": ""
+                },
+                "description": {
+                  "type": "<string>",
+                  "content": ""
+                },
+                "primaryActor": "&1",
+                "preCondition": {
+                  "type": "PreCondition",
+                  "content": {
+                    "sentences": [{
+                      "type": "Sentence",
+                      "content": {
+                        "name": {
+                          "type": "<string>",
+                          "content": ""
+                        },
+                        "description": {
+                          "type": "<string>",
+                          "content": ""
+                        },
+                        "content": {
+                          "type": "<string>",
+                          "content": "有需要进行编译的C语言源文件"
+                        }
+                      }
+                    }],
+                    "name": {
+                      "type": "<string>",
+                      "content": ""
+                    },
+                    "description": {
+                      "type": "<string>",
+                      "content": ""
+                    }
+                  }
+                },
+                "briefDescription": {
+                  "type": "BriefDescription",
+                  "content": {
+                    "sentences": [{
+                      "type": "Sentence",
+                      "content": {
+                        "name": {
+                          "type": "<string>",
+                          "content": ""
+                        },
+                        "description": {
+                          "type": "<string>",
+                          "content": ""
+                        },
+                        "content": {
+                          "type": "<string>",
+                          "content": "对C语言源代码进行预处理（pre_parser.mly）"
+                        }
+                      }
+                    }],
+                    "name": {
+                      "type": "<string>",
+                      "content": ""
+                    },
+                    "description": {
+                      "type": "<string>",
+                      "content": ""
+                    }
+                  }
+                },
+                "basicFlow": {
+                  "type": "BasicFlow",
+                  "content": {
+                    "postCondition": {
+                      "type": "PostCondition",
+                      "content": {
+                        "sentences": [{
+                          "type": "Sentence",
+                          "content": {
+                            "name": {
+                              "type": "<string>",
+                              "content": ""
+                            },
+                            "description": {
+                              "type": "<string>",
+                              "content": ""
+                            },
+                            "content": {
+                              "type": "<string>",
+                              "content": "生成预处理后的C代码"
+                            }
+                          }
+                        }],
+                        "name": {
+                          "type": "<string>",
+                          "content": ""
+                        },
+                        "description": {
+                          "type": "<string>",
+                          "content": ""
+                        }
+                      }
+                    },
+                    "name": {
+                      "type": "<string>",
+                      "content": "主流程"
+                    },
+                    "description": {
+                      "type": "<string>",
+                      "content": ""
+                    },
+                    "steps": [
+                      {
+                        "type": "Sentence",
+                        "content": {
+                          "name": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "description": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "content": {
+                            "type": "<string>",
+                            "content": "编译器调用预处理器"
+                          }
+                        }
+                      },
+                      {
+                        "type": "Sentence",
+                        "content": {
+                          "natures": [{
+                            "type": "ValidateThatNature",
+                            "content": {
+                              "subject": {
+                                "type": "<string>",
+                                "content": "编译器"
+                              },
+                              "object": {
+                                "type": "<string>",
+                                "content": "返回成功"
+                              }
+                            }
+                          }],
+                          "name": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "description": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "content": {
+                            "type": "<string>",
+                            "content": "编译器 VALIDATES THAT 返回成功 "
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "type": "UseCase",
+          "content": {
+            "name": {
+              "type": "<string>",
+              "content": "词法分析"
+            },
+            "description": {
+              "type": "<string>",
+              "content": ""
+            },
+            "specification": {
+              "type": "UseCaseSpecification",
+              "content": {
+                "alternativeFlows": [{
+                  "type": "GlobalAlternative",
+                  "content": {
+                    "postCondition": {
+                      "type": "PostCondition",
+                      "content": {
+                        "sentences": [{
+                          "type": "Sentence",
+                          "content": {
+                            "name": {
+                              "type": "<string>",
+                              "content": ""
+                            },
+                            "description": {
+                              "type": "<string>",
+                              "content": ""
+                            },
+                            "content": {
+                              "type": "<string>",
+                              "content": "编译器关闭"
+                            }
+                          }
+                        }],
+                        "name": {
+                          "type": "<string>",
+                          "content": ""
+                        },
+                        "description": {
+                          "type": "<string>",
+                          "content": ""
+                        }
+                      }
+                    },
+                    "name": {
+                      "type": "<string>",
+                      "content": "全局流"
+                    },
+                    "description": {
+                      "type": "<string>",
+                      "content": ""
+                    },
+                    "conditionSentence": {
+                      "type": "Sentence",
+                      "content": {
+                        "name": {
+                          "type": "<string>",
+                          "content": ""
+                        },
+                        "description": {
+                          "type": "<string>",
+                          "content": ""
+                        },
+                        "content": {
+                          "type": "<string>",
+                          "content": "系统异常"
+                        }
+                      }
+                    },
+                    "steps": [{
+                      "type": "Sentence",
+                      "content": {
+                        "natures": [{
+                          "type": "AbortNature",
+                          "content": {}
+                        }],
+                        "name": {
+                          "type": "<string>",
+                          "content": ""
+                        },
+                        "description": {
+                          "type": "<string>",
+                          "content": ""
+                        },
+                        "content": {
+                          "type": "<string>",
+                          "content": "ABORT"
+                        }
+                      }
+                    }]
+                  }
+                }],
+                "name": {
+                  "type": "<string>",
+                  "content": ""
+                },
+                "description": {
+                  "type": "<string>",
+                  "content": ""
+                },
+                "primaryActor": "&2",
+                "preCondition": {
+                  "type": "PreCondition",
+                  "content": {
+                    "sentences": [{
+                      "type": "Sentence",
+                      "content": {
+                        "name": {
+                          "type": "<string>",
+                          "content": ""
+                        },
+                        "description": {
+                          "type": "<string>",
+                          "content": ""
+                        },
+                        "content": {
+                          "type": "<string>",
+                          "content": "有预处理后完成的纯C文件"
+                        }
+                      }
+                    }],
+                    "name": {
+                      "type": "<string>",
+                      "content": ""
+                    },
+                    "description": {
+                      "type": "<string>",
+                      "content": ""
+                    }
+                  }
+                },
+                "briefDescription": {
+                  "type": "BriefDescription",
+                  "content": {
+                    "sentences": [{
+                      "type": "Sentence",
+                      "content": {
+                        "name": {
+                          "type": "<string>",
+                          "content": ""
+                        },
+                        "description": {
+                          "type": "<string>",
+                          "content": ""
+                        },
+                        "content": {
+                          "type": "<string>",
+                          "content": "分析词语，检查代码拼写错误（Lexer.mll）"
+                        }
+                      }
+                    }],
+                    "name": {
+                      "type": "<string>",
+                      "content": ""
+                    },
+                    "description": {
+                      "type": "<string>",
+                      "content": ""
+                    }
+                  }
+                },
+                "basicFlow": {
+                  "type": "BasicFlow",
+                  "content": {
+                    "postCondition": {
+                      "type": "PostCondition",
+                      "content": {
+                        "sentences": [{
+                          "type": "Sentence",
+                          "content": {
+                            "name": {
+                              "type": "<string>",
+                              "content": ""
+                            },
+                            "description": {
+                              "type": "<string>",
+                              "content": ""
+                            },
+                            "content": {
+                              "type": "<string>",
+                              "content": "得到了单词流"
+                            }
+                          }
+                        }],
+                        "name": {
+                          "type": "<string>",
+                          "content": ""
+                        },
+                        "description": {
+                          "type": "<string>",
+                          "content": ""
+                        }
+                      }
+                    },
+                    "name": {
+                      "type": "<string>",
+                      "content": "主流程"
+                    },
+                    "description": {
+                      "type": "<string>",
+                      "content": ""
+                    },
+                    "steps": [
+                      {
+                        "type": "Sentence",
+                        "content": {
+                          "name": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "description": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "content": {
+                            "type": "<string>",
+                            "content": "编译器打开源文件，得到源文件流"
+                          }
+                        }
+                      },
+                      {
+                        "type": "Sentence",
+                        "content": {
+                          "name": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "description": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "content": {
+                            "type": "<string>",
+                            "content": "lexer类初始化"
+                          }
+                        }
+                      },
+                      {
+                        "type": "Sentence",
+                        "content": {
+                          "name": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "description": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "content": {
+                            "type": "<string>",
+                            "content": "编译器调用lexer里的方法，生成源文件里的单词流"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "type": "Relationship",
+          "content": {
+            "useCase": "&3",
+            "name": {
+              "type": "<string>",
+              "content": ""
+            },
+            "description": {
+              "type": "<string>",
+              "content": ""
+            }
+          }
+        },
+        {
+          "type": "UseCase",
+          "content": {
+            "name": {
+              "type": "<string>",
+              "content": "语法分析"
+            },
+            "description": {
+              "type": "<string>",
+              "content": ""
+            },
+            "specification": {
+              "type": "UseCaseSpecification",
+              "content": {
+                "alternativeFlows": [
+                  {
+                    "type": "GlobalAlternative",
+                    "content": {
+                      "postCondition": {
+                        "type": "PostCondition",
+                        "content": {
+                          "sentences": [{
+                            "type": "Sentence",
+                            "content": {
+                              "name": {
+                                "type": "<string>",
+                                "content": ""
+                              },
+                              "description": {
+                                "type": "<string>",
+                                "content": ""
+                              },
+                              "content": {
+                                "type": "<string>",
+                                "content": "编译器关闭"
+                              }
+                            }
+                          }],
+                          "name": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "description": {
+                            "type": "<string>",
+                            "content": ""
+                          }
+                        }
+                      },
+                      "name": {
+                        "type": "<string>",
+                        "content": "全局流"
+                      },
+                      "description": {
+                        "type": "<string>",
+                        "content": ""
+                      },
+                      "conditionSentence": {
+                        "type": "Sentence",
+                        "content": {
+                          "name": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "description": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "content": {
+                            "type": "<string>",
+                            "content": "系统异常"
+                          }
+                        }
+                      },
+                      "steps": [{
+                        "type": "Sentence",
+                        "content": {
+                          "natures": [{
+                            "type": "AbortNature",
+                            "content": {}
+                          }],
+                          "name": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "description": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "content": {
+                            "type": "<string>",
+                            "content": "ABORT"
+                          }
+                        }
+                      }]
+                    }
+                  },
+                  {
+                    "type": "SpecificAlternative",
+                    "content": {
+                      "postCondition": {
+                        "type": "PostCondition",
+                        "content": {
+                          "sentences": [{
+                            "type": "Sentence",
+                            "content": {
+                              "name": {
+                                "type": "<string>",
+                                "content": ""
+                              },
+                              "description": {
+                                "type": "<string>",
+                                "content": ""
+                              },
+                              "content": {
+                                "type": "<string>",
+                                "content": "编译器关闭"
+                              }
+                            }
+                          }],
+                          "name": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "description": {
+                            "type": "<string>",
+                            "content": ""
+                          }
+                        }
+                      },
+                      "rfsSentence": {
+                        "type": "Sentence",
+                        "content": {
+                          "natures": [{
+                            "type": "RFSNature",
+                            "content": {
+                              "flowName": {
+                                "type": "<string>",
+                                "content": ""
+                              },
+                              "segments": [{
+                                "type": "RFSNatureSegment",
+                                "content": {
+                                  "toStep": {
+                                    "type": "<int>",
+                                    "content": 1
+                                  },
+                                  "fromStep": {
+                                    "type": "<int>",
+                                    "content": 1
+                                  }
+                                }
+                              }]
+                            }
+                          }],
+                          "name": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "description": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "content": {
+                            "type": "<string>",
+                            "content": "RFS 1"
+                          }
+                        }
+                      },
+                      "name": {
+                        "type": "<string>",
+                        "content": "失败流程"
+                      },
+                      "description": {
+                        "type": "<string>",
+                        "content": ""
+                      },
+                      "steps": [
+                        {
+                          "type": "Sentence",
+                          "content": {
+                            "name": {
+                              "type": "<string>",
+                              "content": ""
+                            },
+                            "description": {
+                              "type": "<string>",
+                              "content": ""
+                            },
+                            "content": {
+                              "type": "<string>",
+                              "content": "编译器报出致命错误"
+                            }
+                          }
+                        },
+                        {
+                          "type": "Sentence",
+                          "content": {
+                            "natures": [{
+                              "type": "AbortNature",
+                              "content": {}
+                            }],
+                            "name": {
+                              "type": "<string>",
+                              "content": ""
+                            },
+                            "description": {
+                              "type": "<string>",
+                              "content": ""
+                            },
+                            "content": {
+                              "type": "<string>",
+                              "content": "ABORT"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "SpecificAlternative",
+                    "content": {
+                      "postCondition": {
+                        "type": "PostCondition",
+                        "content": {
+                          "sentences": [{
+                            "type": "Sentence",
+                            "content": {
+                              "name": {
+                                "type": "<string>",
+                                "content": ""
+                              },
+                              "description": {
+                                "type": "<string>",
+                                "content": ""
+                              },
+                              "content": {
+                                "type": "<string>",
+                                "content": "编译器关闭"
+                              }
+                            }
+                          }],
+                          "name": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "description": {
+                            "type": "<string>",
+                            "content": ""
+                          }
+                        }
+                      },
+                      "rfsSentence": {
+                        "type": "Sentence",
+                        "content": {
+                          "natures": [{
+                            "type": "RFSNature",
+                            "content": {
+                              "flowName": {
+                                "type": "<string>",
+                                "content": ""
+                              },
+                              "segments": [{
+                                "type": "RFSNatureSegment",
+                                "content": {
+                                  "toStep": {
+                                    "type": "<int>",
+                                    "content": 2
+                                  },
+                                  "fromStep": {
+                                    "type": "<int>",
+                                    "content": 2
+                                  }
+                                }
+                              }]
+                            }
+                          }],
+                          "name": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "description": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "content": {
+                            "type": "<string>",
+                            "content": "RFS 2"
+                          }
+                        }
+                      },
+                      "name": {
+                        "type": "<string>",
+                        "content": "失败流程"
+                      },
+                      "description": {
+                        "type": "<string>",
+                        "content": ""
+                      },
+                      "steps": [
+                        {
+                          "type": "Sentence",
+                          "content": {
+                            "name": {
+                              "type": "<string>",
+                              "content": ""
+                            },
+                            "description": {
+                              "type": "<string>",
+                              "content": ""
+                            },
+                            "content": {
+                              "type": "<string>",
+                              "content": "编译器声明错误"
+                            }
+                          }
+                        },
+                        {
+                          "type": "Sentence",
+                          "content": {
+                            "natures": [{
+                              "type": "AbortNature",
+                              "content": {}
+                            }],
+                            "name": {
+                              "type": "<string>",
+                              "content": ""
+                            },
+                            "description": {
+                              "type": "<string>",
+                              "content": ""
+                            },
+                            "content": {
+                              "type": "<string>",
+                              "content": "ABORT"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "name": {
+                  "type": "<string>",
+                  "content": ""
+                },
+                "description": {
+                  "type": "<string>",
+                  "content": ""
+                },
+                "primaryActor": "&2",
+                "preCondition": {
+                  "type": "PreCondition",
+                  "content": {
+                    "sentences": [{
+                      "type": "Sentence",
+                      "content": {
+                        "name": {
+                          "type": "<string>",
+                          "content": ""
+                        },
+                        "description": {
+                          "type": "<string>",
+                          "content": ""
+                        },
+                        "content": {
+                          "type": "<string>",
+                          "content": "有词法处理完成单词流"
+                        }
+                      }
+                    }],
+                    "name": {
+                      "type": "<string>",
+                      "content": ""
+                    },
+                    "description": {
+                      "type": "<string>",
+                      "content": ""
+                    }
+                  }
+                },
+                "briefDescription": {
+                  "type": "BriefDescription",
+                  "content": {
+                    "sentences": [{
+                      "type": "Sentence",
+                      "content": {
+                        "name": {
+                          "type": "<string>",
+                          "content": ""
+                        },
+                        "description": {
+                          "type": "<string>",
+                          "content": ""
+                        },
+                        "content": {
+                          "type": "<string>",
+                          "content": "对C语言代码进行语法分析，检查句子语法（Parse.ml）"
+                        }
+                      }
+                    }],
+                    "name": {
+                      "type": "<string>",
+                      "content": ""
+                    },
+                    "description": {
+                      "type": "<string>",
+                      "content": ""
+                    }
+                  }
+                },
+                "basicFlow": {
+                  "type": "BasicFlow",
+                  "content": {
+                    "postCondition": {
+                      "type": "PostCondition",
+                      "content": {
+                        "sentences": [{
+                          "type": "Sentence",
+                          "content": {
+                            "name": {
+                              "type": "<string>",
+                              "content": ""
+                            },
+                            "description": {
+                              "type": "<string>",
+                              "content": ""
+                            },
+                            "content": {
+                              "type": "<string>",
+                              "content": "编译器得到了AST"
+                            }
+                          }
+                        }],
+                        "name": {
+                          "type": "<string>",
+                          "content": ""
+                        },
+                        "description": {
+                          "type": "<string>",
+                          "content": ""
+                        }
+                      }
+                    },
+                    "name": {
+                      "type": "<string>",
+                      "content": "主流程"
+                    },
+                    "description": {
+                      "type": "<string>",
+                      "content": ""
+                    },
+                    "steps": [
+                      {
+                        "type": "Sentence",
+                        "content": {
+                          "natures": [{
+                            "type": "ValidateThatNature",
+                            "content": {
+                              "subject": {
+                                "type": "<string>",
+                                "content": "Parse包"
+                              },
+                              "object": {
+                                "type": "<string>",
+                                "content": "单词流未解析错误"
+                              }
+                            }
+                          }],
+                          "name": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "description": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "content": {
+                            "type": "<string>",
+                            "content": "Parse包 VALIDATES THAT 单词流未解析错误"
+                          }
+                        }
+                      },
+                      {
+                        "type": "Sentence",
+                        "content": {
+                          "natures": [{
+                            "type": "ValidateThatNature",
+                            "content": {
+                              "subject": {
+                                "type": "<string>",
+                                "content": "Parse包"
+                              },
+                              "object": {
+                                "type": "<string>",
+                                "content": "未超时"
+                              }
+                            }
+                          }],
+                          "name": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "description": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "content": {
+                            "type": "<string>",
+                            "content": "Parse包 VALIDATES THAT 未超时"
+                          }
+                        }
+                      },
+                      {
+                        "type": "Sentence",
+                        "content": {
+                          "name": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "description": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "content": {
+                            "type": "<string>",
+                            "content": "编译器调用Parsed_pr对单词流进行语法分析"
+                          }
+                        }
+                      },
+                      {
+                        "type": "Sentence",
+                        "content": {
+                          "name": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "description": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "content": {
+                            "type": "<string>",
+                            "content": "编译器生成AST"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "type": "UseCase",
+          "content": {
+            "include": [{
+              "type": "Include",
+              "content": {
+                "name": {
+                  "type": "<string>",
+                  "content": ""
+                },
+                "description": {
+                  "type": "<string>",
+                  "content": ""
+                },
+                "addition": "&4",
+                "includingCase": "&5"
+              }
+            }],
+            "name": {
+              "type": "<string>",
+              "content": "中间代码转换"
+            },
+            "description": {
+              "type": "<string>",
+              "content": ""
+            },
+            "specification": {
+              "type": "UseCaseSpecification",
+              "content": {
+                "secondaryActors": ["&0"],
+                "alternativeFlows": [{
+                  "type": "GlobalAlternative",
+                  "content": {
+                    "postCondition": {
+                      "type": "PostCondition",
+                      "content": {
+                        "sentences": [{
+                          "type": "Sentence",
+                          "content": {
+                            "name": {
+                              "type": "<string>",
+                              "content": ""
+                            },
+                            "description": {
+                              "type": "<string>",
+                              "content": ""
+                            },
+                            "content": {
+                              "type": "<string>",
+                              "content": "编译器关闭"
+                            }
+                          }
+                        }],
+                        "name": {
+                          "type": "<string>",
+                          "content": ""
+                        },
+                        "description": {
+                          "type": "<string>",
+                          "content": ""
+                        }
+                      }
+                    },
+                    "name": {
+                      "type": "<string>",
+                      "content": "出错处理"
+                    },
+                    "description": {
+                      "type": "<string>",
+                      "content": ""
+                    },
+                    "conditionSentence": {
+                      "type": "Sentence",
+                      "content": {
+                        "name": {
+                          "type": "<string>",
+                          "content": ""
+                        },
+                        "description": {
+                          "type": "<string>",
+                          "content": ""
+                        },
+                        "content": {
+                          "type": "<string>",
+                          "content": "转换过程出错  OR  系统异常"
+                        }
+                      }
+                    },
+                    "steps": [
+                      {
+                        "type": "Sentence",
+                        "content": {
+                          "name": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "description": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "content": {
+                            "type": "<string>",
+                            "content": "编译器声明错误"
+                          }
+                        }
+                      },
+                      {
+                        "type": "Sentence",
+                        "content": {
+                          "name": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "description": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "content": {
+                            "type": "<string>",
+                            "content": "ABORT"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }],
+                "name": {
+                  "type": "<string>",
+                  "content": ""
+                },
+                "description": {
+                  "type": "<string>",
+                  "content": ""
+                },
+                "primaryActor": "&2",
+                "preCondition": {
+                  "type": "PreCondition",
+                  "content": {
+                    "sentences": [{
+                      "type": "Sentence",
+                      "content": {
+                        "name": {
+                          "type": "<string>",
+                          "content": ""
+                        },
+                        "description": {
+                          "type": "<string>",
+                          "content": ""
+                        },
+                        "content": {
+                          "type": "<string>",
+                          "content": "生成的Clight程序"
+                        }
+                      }
+                    }],
+                    "name": {
+                      "type": "<string>",
+                      "content": ""
+                    },
+                    "description": {
+                      "type": "<string>",
+                      "content": ""
+                    }
+                  }
+                },
+                "briefDescription": {
+                  "type": "BriefDescription",
+                  "content": {
+                    "sentences": [{
+                      "type": "Sentence",
+                      "content": {
+                        "name": {
+                          "type": "<string>",
+                          "content": ""
+                        },
+                        "description": {
+                          "type": "<string>",
+                          "content": ""
+                        },
+                        "content": {
+                          "type": "<string>",
+                          "content": "经过8种中间代码的转换，将Clight C程序转换为Mach程序（SimplLocals.v,Cshmgen.v,Cminorgen.v,Selection.v,RTLgen.v,Tailcall.v,Inlining.v,Renumber.v,Constprop.v,CSE.v,Deadcode.v,Allocation.v,Tunneling.v,Linearize.v,CleanupLabels.v,Stacking.v,Bounds.v,Stacklayout.v）"
+                        }
+                      }
+                    }],
+                    "name": {
+                      "type": "<string>",
+                      "content": ""
+                    },
+                    "description": {
+                      "type": "<string>",
+                      "content": ""
+                    }
+                  }
+                },
+                "basicFlow": {
+                  "type": "BasicFlow",
+                  "content": {
+                    "postCondition": {
+                      "type": "PostCondition",
+                      "content": {
+                        "sentences": [{
+                          "type": "Sentence",
+                          "content": {
+                            "name": {
+                              "type": "<string>",
+                              "content": ""
+                            },
+                            "description": {
+                              "type": "<string>",
+                              "content": ""
+                            },
+                            "content": {
+                              "type": "<string>",
+                              "content": "编译器生成Mach程序"
+                            }
+                          }
+                        }],
+                        "name": {
+                          "type": "<string>",
+                          "content": ""
+                        },
+                        "description": {
+                          "type": "<string>",
+                          "content": ""
+                        }
+                      }
+                    },
+                    "name": {
+                      "type": "<string>",
+                      "content": "主流程"
+                    },
+                    "description": {
+                      "type": "<string>",
+                      "content": ""
+                    },
+                    "steps": [
+                      {
+                        "type": "Sentence",
+                        "content": {
+                          "name": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "description": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "content": {
+                            "type": "<string>",
+                            "content": "编译器使用SimplLocals.v中的transf_program函数，拉出不在临时变量里面的本地标量变量"
+                          }
+                        }
+                      },
+                      {
+                        "type": "Sentence",
+                        "content": {
+                          "name": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "description": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "content": {
+                            "type": "<string>",
+                            "content": "编译器使用Cshmgen.v中的transl_program函数，简化控制结构，对类型依赖的计算进行解释，将Clight程序转变为Csharpminor程序"
+                          }
+                        }
+                      },
+                      {
+                        "type": "Sentence",
+                        "content": {
+                          "name": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "description": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "content": {
+                            "type": "<string>",
+                            "content": "编译器使用Cminorgen.v中的transl_program函数，对地址被使用的局部变量进行栈分配，将Csharpminor程序转变为Cminor程序"
+                          }
+                        }
+                      },
+                      {
+                        "type": "Sentence",
+                        "content": {
+                          "name": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "description": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "content": {
+                            "type": "<string>",
+                            "content": "编译器使用Selection.v中的sel_program函数，识别操作符与地址模式，将Cminor程序程序转变为CminorSel程序"
+                          }
+                        }
+                      },
+                      {
+                        "type": "Sentence",
+                        "content": {
+                          "name": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "description": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "content": {
+                            "type": "<string>",
+                            "content": "编译器使用RTLgen.v中的transl_program函数，构建程序的控制流图，将CminorSel程序转变为三地址格式的RTL程序"
+                          }
+                        }
+                      },
+                      {
+                        "type": "Sentence",
+                        "content": {
+                          "name": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "description": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "content": {
+                            "type": "<string>",
+                            "content": "编译器使用Tailcall.v中的transf_program函数，识别出程序中的尾递归函数"
+                          }
+                        }
+                      },
+                      {
+                        "type": "Sentence",
+                        "content": {
+                          "name": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "description": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "content": {
+                            "type": "<string>",
+                            "content": "编译器使用Inlining.v中的transf_program函数，进行小函数内联"
+                          }
+                        }
+                      },
+                      {
+                        "type": "Sentence",
+                        "content": {
+                          "name": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "description": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "content": {
+                            "type": "<string>",
+                            "content": "编译器使用Renumber.v的transf_program函数，使用后序重命名控制流图"
+                          }
+                        }
+                      },
+                      {
+                        "type": "Sentence",
+                        "content": {
+                          "name": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "description": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "content": {
+                            "type": "<string>",
+                            "content": "编译器使用Constprop.v中transf_program函数，进行常数传播的优化"
+                          }
+                        }
+                      },
+                      {
+                        "type": "Sentence",
+                        "content": {
+                          "name": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "description": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "content": {
+                            "type": "<string>",
+                            "content": "编译器使用CSE.v中的transf_program函数，消除公共子表达式"
+                          }
+                        }
+                      },
+                      {
+                        "type": "Sentence",
+                        "content": {
+                          "name": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "description": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "content": {
+                            "type": "<string>",
+                            "content": "编译器使用Deadcode.v中的transf_program函数，删除死代码"
+                          }
+                        }
+                      },
+                      {
+                        "type": "Sentence",
+                        "content": {
+                          "name": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "description": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "content": {
+                            "type": "<string>",
+                            "content": "编译器使用Allocation.v中的transf_program函数，进行寄存器分配，将RTL程序转变为LTL程序"
+                          }
+                        }
+                      },
+                      {
+                        "type": "Sentence",
+                        "content": {
+                          "name": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "description": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "content": {
+                            "type": "<string>",
+                            "content": "编译器使用Tunneling.v中的tunnel_program函数，对分支之间的跳转进行优化"
+                          }
+                        }
+                      },
+                      {
+                        "type": "Sentence",
+                        "content": {
+                          "name": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "description": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "content": {
+                            "type": "<string>",
+                            "content": "编译器使用Linearize.v中的transf_program函数，将控制流图线性化，将LTL程序转变为Linear程序"
+                          }
+                        }
+                      },
+                      {
+                        "type": "Sentence",
+                        "content": {
+                          "name": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "description": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "content": {
+                            "type": "<string>",
+                            "content": "编译器使用CleanupLabels.v中的transf_program函数，清除未使用的Labels"
+                          }
+                        }
+                      },
+                      {
+                        "type": "Sentence",
+                        "content": {
+                          "name": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "description": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "content": {
+                            "type": "<string>",
+                            "content": "编译器使用Stacking.v中的transf_program函数，列出活动记录，将LTL程序转化为Mach程序"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "type": "UseCase",
+          "content": {
+            "name": {
+              "type": "<string>",
+              "content": "代码优化"
+            },
+            "description": {
+              "type": "<string>",
+              "content": ""
+            }
+          }
+        },
+        {
+          "type": "UseCase",
+          "content": {
+            "name": {
+              "type": "<string>",
+              "content": "生成汇编语法树"
+            },
+            "description": {
+              "type": "<string>",
+              "content": ""
+            },
+            "specification": {
+              "type": "UseCaseSpecification",
+              "content": {
+                "secondaryActors": ["&0"],
+                "alternativeFlows": [{
+                  "type": "SpecificAlternative",
+                  "content": {
+                    "postCondition": {
+                      "type": "PostCondition",
+                      "content": {
+                        "sentences": [{
+                          "type": "Sentence",
+                          "content": {
+                            "name": {
+                              "type": "<string>",
+                              "content": ""
+                            },
+                            "description": {
+                              "type": "<string>",
+                              "content": ""
+                            },
+                            "content": {
+                              "type": "<string>",
+                              "content": "编译器关闭"
+                            }
+                          }
+                        }],
+                        "name": {
+                          "type": "<string>",
+                          "content": ""
+                        },
+                        "description": {
+                          "type": "<string>",
+                          "content": ""
+                        }
+                      }
+                    },
+                    "rfsSentence": {
+                      "type": "Sentence",
+                      "content": {
+                        "natures": [{
+                          "type": "RFSNature",
+                          "content": {
+                            "flowName": {
+                              "type": "<string>",
+                              "content": ""
+                            },
+                            "segments": [{
+                              "type": "RFSNatureSegment",
+                              "content": {
+                                "toStep": {
+                                  "type": "<int>",
+                                  "content": 4
+                                },
+                                "fromStep": {
+                                  "type": "<int>",
+                                  "content": 4
+                                }
+                              }
+                            }]
+                          }
+                        }],
+                        "name": {
+                          "type": "<string>",
+                          "content": ""
+                        },
+                        "description": {
+                          "type": "<string>",
+                          "content": ""
+                        },
+                        "content": {
+                          "type": "<string>",
+                          "content": "RFS 4"
+                        }
+                      }
+                    },
+                    "name": {
+                      "type": "<string>",
+                      "content": "失败流程"
+                    },
+                    "description": {
+                      "type": "<string>",
+                      "content": ""
+                    },
+                    "steps": [
+                      {
+                        "type": "Sentence",
+                        "content": {
+                          "name": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "description": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "content": {
+                            "type": "<string>",
+                            "content": "编译器打印出错信息"
+                          }
+                        }
+                      },
+                      {
+                        "type": "Sentence",
+                        "content": {
+                          "name": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "description": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "content": {
+                            "type": "<string>",
+                            "content": "ABORT"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }],
+                "name": {
+                  "type": "<string>",
+                  "content": ""
+                },
+                "description": {
+                  "type": "<string>",
+                  "content": ""
+                },
+                "primaryActor": "&2",
+                "preCondition": {
+                  "type": "PreCondition",
+                  "content": {
+                    "sentences": [{
+                      "type": "Sentence",
+                      "content": {
+                        "name": {
+                          "type": "<string>",
+                          "content": ""
+                        },
+                        "description": {
+                          "type": "<string>",
+                          "content": ""
+                        },
+                        "content": {
+                          "type": "<string>",
+                          "content": "生成的Mach程序"
+                        }
+                      }
+                    }],
+                    "name": {
+                      "type": "<string>",
+                      "content": ""
+                    },
+                    "description": {
+                      "type": "<string>",
+                      "content": ""
+                    }
+                  }
+                },
+                "briefDescription": {
+                  "type": "BriefDescription",
+                  "content": {
+                    "sentences": [{
+                      "type": "Sentence",
+                      "content": {
+                        "name": {
+                          "type": "<string>",
+                          "content": ""
+                        },
+                        "description": {
+                          "type": "<string>",
+                          "content": ""
+                        },
+                        "content": {
+                          "type": "<string>",
+                          "content": "将Mach程序转换为ASM AST（ASMgen.v）"
+                        }
+                      }
+                    }],
+                    "name": {
+                      "type": "<string>",
+                      "content": ""
+                    },
+                    "description": {
+                      "type": "<string>",
+                      "content": ""
+                    }
+                  }
+                },
+                "basicFlow": {
+                  "type": "BasicFlow",
+                  "content": {
+                    "postCondition": {
+                      "type": "PostCondition",
+                      "content": {
+                        "sentences": [{
+                          "type": "Sentence",
+                          "content": {
+                            "name": {
+                              "type": "<string>",
+                              "content": ""
+                            },
+                            "description": {
+                              "type": "<string>",
+                              "content": ""
+                            },
+                            "content": {
+                              "type": "<string>",
+                              "content": "生成ASM抽象语法树"
+                            }
+                          }
+                        }],
+                        "name": {
+                          "type": "<string>",
+                          "content": ""
+                        },
+                        "description": {
+                          "type": "<string>",
+                          "content": ""
+                        }
+                      }
+                    },
+                    "name": {
+                      "type": "<string>",
+                      "content": "主流程"
+                    },
+                    "description": {
+                      "type": "<string>",
+                      "content": ""
+                    },
+                    "steps": [
+                      {
+                        "type": "Sentence",
+                        "content": {
+                          "name": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "description": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "content": {
+                            "type": "<string>",
+                            "content": "编译器定义*reg_of，*imm等辅助函数"
+                          }
+                        }
+                      },
+                      {
+                        "type": "Sentence",
+                        "content": {
+                          "name": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "description": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "content": {
+                            "type": "<string>",
+                            "content": "编译器定义对各种表达式的翻译函数transl_*transf_program"
+                          }
+                        }
+                      },
+                      {
+                        "type": "Sentence",
+                        "content": {
+                          "name": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "description": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "content": {
+                            "type": "<string>",
+                            "content": "transf_program递归调用transl_*函数将Mach程序转变为ASM抽象语法树"
+                          }
+                        }
+                      },
+                      {
+                        "type": "Sentence",
+                        "content": {
+                          "natures": [{
+                            "type": "ValidateThatNature",
+                            "content": {
+                              "subject": {
+                                "type": "<string>",
+                                "content": "transl_*"
+                              },
+                              "object": {
+                                "type": "<string>",
+                                "content": "转换正确"
+                              }
+                            }
+                          }],
+                          "name": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "description": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "content": {
+                            "type": "<string>",
+                            "content": "transl_* VALIDATES THAT 转换正确"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "type": "UseCase",
+          "content": {
+            "name": {
+              "type": "<string>",
+              "content": "生成可执行文件"
+            },
+            "description": {
+              "type": "<string>",
+              "content": ""
+            }
+          }
+        },
+        {
+          "type": "Relationship",
+          "content": {
+            "useCase": "&5",
+            "name": {
+              "type": "<string>",
+              "content": ""
+            },
+            "description": {
+              "type": "<string>",
+              "content": ""
+            }
+          }
+        },
+        {
+          "type": "Relationship",
+          "content": {
+            "useCase": "&6",
+            "name": {
+              "type": "<string>",
+              "content": ""
+            },
+            "description": {
+              "type": "<string>",
+              "content": ""
+            }
+          }
+        },
+        {
+          "type": "Relationship",
+          "content": {
+            "useCase": "&7",
+            "name": {
+              "type": "<string>",
+              "content": ""
+            },
+            "description": {
+              "type": "<string>",
+              "content": ""
+            }
+          }
+        },
+        {
+          "type": "Relationship",
+          "content": {
+            "useCase": "&8",
+            "name": {
+              "type": "<string>",
+              "content": ""
+            },
+            "description": {
+              "type": "<string>",
+              "content": ""
+            }
+          }
+        },
+        {
+          "type": "Actor",
+          "content": {
+            "name": {
+              "type": "<string>",
+              "content": "中间代码"
+            },
+            "description": {
+              "type": "<string>",
+              "content": ""
+            }
+          }
+        },
+        {
+          "type": "UseCase",
+          "content": {
+            "name": {
+              "type": "<string>",
+              "content": "类型检查"
+            },
+            "description": {
+              "type": "<string>",
+              "content": ""
+            },
+            "specification": {
+              "type": "UseCaseSpecification",
+              "content": {
+                "secondaryActors": ["&0"],
+                "alternativeFlows": [
+                  {
+                    "type": "GlobalAlternative",
+                    "content": {
+                      "postCondition": {
+                        "type": "PostCondition",
+                        "content": {
+                          "sentences": [{
+                            "type": "Sentence",
+                            "content": {
+                              "name": {
+                                "type": "<string>",
+                                "content": ""
+                              },
+                              "description": {
+                                "type": "<string>",
+                                "content": ""
+                              },
+                              "content": {
+                                "type": "<string>",
+                                "content": "编译器关闭"
+                              }
+                            }
+                          }],
+                          "name": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "description": {
+                            "type": "<string>",
+                            "content": ""
+                          }
+                        }
+                      },
+                      "name": {
+                        "type": "<string>",
+                        "content": "全局流"
+                      },
+                      "description": {
+                        "type": "<string>",
+                        "content": ""
+                      },
+                      "conditionSentence": {
+                        "type": "Sentence",
+                        "content": {
+                          "name": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "description": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "content": {
+                            "type": "<string>",
+                            "content": "系统异常"
+                          }
+                        }
+                      },
+                      "steps": [{
+                        "type": "Sentence",
+                        "content": {
+                          "natures": [{
+                            "type": "AbortNature",
+                            "content": {}
+                          }],
+                          "name": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "description": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "content": {
+                            "type": "<string>",
+                            "content": "ABORT"
+                          }
+                        }
+                      }]
+                    }
+                  },
+                  {
+                    "type": "SpecificAlternative",
+                    "content": {
+                      "postCondition": {
+                        "type": "PostCondition",
+                        "content": {
+                          "sentences": [{
+                            "type": "Sentence",
+                            "content": {
+                              "name": {
+                                "type": "<string>",
+                                "content": ""
+                              },
+                              "description": {
+                                "type": "<string>",
+                                "content": ""
+                              },
+                              "content": {
+                                "type": "<string>",
+                                "content": "编译器关闭"
+                              }
+                            }
+                          }],
+                          "name": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "description": {
+                            "type": "<string>",
+                            "content": ""
+                          }
+                        }
+                      },
+                      "rfsSentence": {
+                        "type": "Sentence",
+                        "content": {
+                          "natures": [{
+                            "type": "RFSNature",
+                            "content": {
+                              "flowName": {
+                                "type": "<string>",
+                                "content": ""
+                              },
+                              "segments": [{
+                                "type": "RFSNatureSegment",
+                                "content": {
+                                  "toStep": {
+                                    "type": "<int>",
+                                    "content": 5
+                                  },
+                                  "fromStep": {
+                                    "type": "<int>",
+                                    "content": 5
+                                  }
+                                }
+                              }]
+                            }
+                          }],
+                          "name": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "description": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "content": {
+                            "type": "<string>",
+                            "content": "RFS 5"
+                          }
+                        }
+                      },
+                      "name": {
+                        "type": "<string>",
+                        "content": "失败流程"
+                      },
+                      "description": {
+                        "type": "<string>",
+                        "content": ""
+                      },
+                      "steps": [
+                        {
+                          "type": "Sentence",
+                          "content": {
+                            "name": {
+                              "type": "<string>",
+                              "content": ""
+                            },
+                            "description": {
+                              "type": "<string>",
+                              "content": ""
+                            },
+                            "content": {
+                              "type": "<string>",
+                              "content": "编译器汇报分析出的错误结果及原因"
+                            }
+                          }
+                        },
+                        {
+                          "type": "Sentence",
+                          "content": {
+                            "natures": [{
+                              "type": "AbortNature",
+                              "content": {}
+                            }],
+                            "name": {
+                              "type": "<string>",
+                              "content": ""
+                            },
+                            "description": {
+                              "type": "<string>",
+                              "content": ""
+                            },
+                            "content": {
+                              "type": "<string>",
+                              "content": "ABORT"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ],
+                "name": {
+                  "type": "<string>",
+                  "content": ""
+                },
+                "description": {
+                  "type": "<string>",
+                  "content": ""
+                },
+                "primaryActor": "&2",
+                "preCondition": {
+                  "type": "PreCondition",
+                  "content": {
+                    "sentences": [{
+                      "type": "Sentence",
+                      "content": {
+                        "name": {
+                          "type": "<string>",
+                          "content": ""
+                        },
+                        "description": {
+                          "type": "<string>",
+                          "content": ""
+                        },
+                        "content": {
+                          "type": "<string>",
+                          "content": "有语法分析得到的抽象语法树"
+                        }
+                      }
+                    }],
+                    "name": {
+                      "type": "<string>",
+                      "content": ""
+                    },
+                    "description": {
+                      "type": "<string>",
+                      "content": ""
+                    }
+                  }
+                },
+                "briefDescription": {
+                  "type": "BriefDescription",
+                  "content": {
+                    "sentences": [{
+                      "type": "Sentence",
+                      "content": {
+                        "name": {
+                          "type": "<string>",
+                          "content": ""
+                        },
+                        "description": {
+                          "type": "<string>",
+                          "content": ""
+                        },
+                        "content": {
+                          "type": "<string>",
+                          "content": "对源代码进行类型检查（Ctyping.v）"
+                        }
+                      }
+                    }],
+                    "name": {
+                      "type": "<string>",
+                      "content": ""
+                    },
+                    "description": {
+                      "type": "<string>",
+                      "content": ""
+                    }
+                  }
+                },
+                "basicFlow": {
+                  "type": "BasicFlow",
+                  "content": {
+                    "postCondition": {
+                      "type": "PostCondition",
+                      "content": {
+                        "sentences": [{
+                          "type": "Sentence",
+                          "content": {
+                            "name": {
+                              "type": "<string>",
+                              "content": ""
+                            },
+                            "description": {
+                              "type": "<string>",
+                              "content": ""
+                            },
+                            "content": {
+                              "type": "<string>",
+                              "content": "编译器得到了经验证正确的抽象语法树"
+                            }
+                          }
+                        }],
+                        "name": {
+                          "type": "<string>",
+                          "content": ""
+                        },
+                        "description": {
+                          "type": "<string>",
+                          "content": ""
+                        }
+                      }
+                    },
+                    "name": {
+                      "type": "<string>",
+                      "content": "主流程"
+                    },
+                    "description": {
+                      "type": "<string>",
+                      "content": ""
+                    },
+                    "steps": [
+                      {
+                        "type": "Sentence",
+                        "content": {
+                          "name": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "description": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "content": {
+                            "type": "<string>",
+                            "content": "编译器声明类型规则（*_type）"
+                          }
+                        }
+                      },
+                      {
+                        "type": "Sentence",
+                        "content": {
+                          "name": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "description": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "content": {
+                            "type": "<string>",
+                            "content": "编译器声明类型检查规则(check_*)"
+                          }
+                        }
+                      },
+                      {
+                        "type": "Sentence",
+                        "content": {
+                          "name": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "description": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "content": {
+                            "type": "<string>",
+                            "content": "编译器使用类型推导规则构建推导类型环境typenv"
+                          }
+                        }
+                      },
+                      {
+                        "type": "Sentence",
+                        "content": {
+                          "name": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "description": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "content": {
+                            "type": "<string>",
+                            "content": "编译器在环境中对程序的类型进行推导检查"
+                          }
+                        }
+                      },
+                      {
+                        "type": "Sentence",
+                        "content": {
+                          "natures": [{
+                            "type": "ValidateThatNature",
+                            "content": {
+                              "subject": {
+                                "type": "<string>",
+                                "content": "checker"
+                              },
+                              "object": {
+                                "type": "<string>",
+                                "content": "推导结果"
+                              }
+                            }
+                          }],
+                          "name": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "description": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "content": {
+                            "type": "<string>",
+                            "content": "checker VALIDATES THAT 推导结果"
+                          }
+                        }
+                      },
+                      {
+                        "type": "Sentence",
+                        "content": {
+                          "name": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "description": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "content": {
+                            "type": "<string>",
+                            "content": "编译器生成类型正确的抽象语法树"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "type": "UseCase",
+          "content": {
+            "name": {
+              "type": "<string>",
+              "content": "简化"
+            },
+            "description": {
+              "type": "<string>",
+              "content": ""
+            },
+            "specification": {
+              "type": "UseCaseSpecification",
+              "content": {
+                "secondaryActors": ["&0"],
+                "alternativeFlows": [{
+                  "type": "SpecificAlternative",
+                  "content": {
+                    "postCondition": {
+                      "type": "PostCondition",
+                      "content": {
+                        "sentences": [{
+                          "type": "Sentence",
+                          "content": {
+                            "name": {
+                              "type": "<string>",
+                              "content": ""
+                            },
+                            "description": {
+                              "type": "<string>",
+                              "content": ""
+                            },
+                            "content": {
+                              "type": "<string>",
+                              "content": "编译器关闭"
+                            }
+                          }
+                        }],
+                        "name": {
+                          "type": "<string>",
+                          "content": ""
+                        },
+                        "description": {
+                          "type": "<string>",
+                          "content": ""
+                        }
+                      }
+                    },
+                    "rfsSentence": {
+                      "type": "Sentence",
+                      "content": {
+                        "natures": [{
+                          "type": "RFSNature",
+                          "content": {
+                            "flowName": {
+                              "type": "<string>",
+                              "content": ""
+                            },
+                            "segments": [{
+                              "type": "RFSNatureSegment",
+                              "content": {
+                                "toStep": {
+                                  "type": "<int>",
+                                  "content": 3
+                                },
+                                "fromStep": {
+                                  "type": "<int>",
+                                  "content": 3
+                                }
+                              }
+                            }]
+                          }
+                        }],
+                        "name": {
+                          "type": "<string>",
+                          "content": ""
+                        },
+                        "description": {
+                          "type": "<string>",
+                          "content": ""
+                        },
+                        "content": {
+                          "type": "<string>",
+                          "content": "RFS 3"
+                        }
+                      }
+                    },
+                    "name": {
+                      "type": "<string>",
+                      "content": "失败流程"
+                    },
+                    "description": {
+                      "type": "<string>",
+                      "content": ""
+                    },
+                    "steps": [
+                      {
+                        "type": "Sentence",
+                        "content": {
+                          "name": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "description": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "content": {
+                            "type": "<string>",
+                            "content": "编译器报出翻译过程出现的错误"
+                          }
+                        }
+                      },
+                      {
+                        "type": "Sentence",
+                        "content": {
+                          "natures": [{
+                            "type": "AbortNature",
+                            "content": {}
+                          }],
+                          "name": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "description": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "content": {
+                            "type": "<string>",
+                            "content": "ABORT"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }],
+                "name": {
+                  "type": "<string>",
+                  "content": ""
+                },
+                "description": {
+                  "type": "<string>",
+                  "content": ""
+                },
+                "primaryActor": "&2",
+                "preCondition": {
+                  "type": "PreCondition",
+                  "content": {
+                    "sentences": [{
+                      "type": "Sentence",
+                      "content": {
+                        "name": {
+                          "type": "<string>",
+                          "content": ""
+                        },
+                        "description": {
+                          "type": "<string>",
+                          "content": ""
+                        },
+                        "content": {
+                          "type": "<string>",
+                          "content": "有生成的CompCert C AST"
+                        }
+                      }
+                    }],
+                    "name": {
+                      "type": "<string>",
+                      "content": ""
+                    },
+                    "description": {
+                      "type": "<string>",
+                      "content": ""
+                    }
+                  }
+                },
+                "briefDescription": {
+                  "type": "BriefDescription",
+                  "content": {
+                    "sentences": [{
+                      "type": "Sentence",
+                      "content": {
+                        "name": {
+                          "type": "<string>",
+                          "content": ""
+                        },
+                        "description": {
+                          "type": "<string>",
+                          "content": ""
+                        },
+                        "content": {
+                          "type": "<string>",
+                          "content": "提取出表达式中的副作用（SimplExpr.v）"
+                        }
+                      }
+                    }],
+                    "name": {
+                      "type": "<string>",
+                      "content": ""
+                    },
+                    "description": {
+                      "type": "<string>",
+                      "content": ""
+                    }
+                  }
+                },
+                "basicFlow": {
+                  "type": "BasicFlow",
+                  "content": {
+                    "postCondition": {
+                      "type": "PostCondition",
+                      "content": {
+                        "sentences": [{
+                          "type": "Sentence",
+                          "content": {
+                            "name": {
+                              "type": "<string>",
+                              "content": ""
+                            },
+                            "description": {
+                              "type": "<string>",
+                              "content": ""
+                            },
+                            "content": {
+                              "type": "<string>",
+                              "content": "编译器得到Clight C程序"
+                            }
+                          }
+                        }],
+                        "name": {
+                          "type": "<string>",
+                          "content": ""
+                        },
+                        "description": {
+                          "type": "<string>",
+                          "content": ""
+                        }
+                      }
+                    },
+                    "name": {
+                      "type": "<string>",
+                      "content": "主流程"
+                    },
+                    "description": {
+                      "type": "<string>",
+                      "content": ""
+                    },
+                    "steps": [
+                      {
+                        "type": "Sentence",
+                        "content": {
+                          "name": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "description": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "content": {
+                            "type": "<string>",
+                            "content": "编译器定义gensym来不断的生成新的未用符号"
+                          }
+                        }
+                      },
+                      {
+                        "type": "Sentence",
+                        "content": {
+                          "name": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "description": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "content": {
+                            "type": "<string>",
+                            "content": "编译器使用Transl_*来递归的对程序进行翻译"
+                          }
+                        }
+                      },
+                      {
+                        "type": "Sentence",
+                        "content": {
+                          "natures": [{
+                            "type": "ValidateThatNature",
+                            "content": {
+                              "subject": {
+                                "type": "<string>",
+                                "content": "Transl_*"
+                              },
+                              "object": {
+                                "type": "<string>",
+                                "content": "翻译正确"
+                              }
+                            }
+                          }],
+                          "name": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "description": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "content": {
+                            "type": "<string>",
+                            "content": "Transl_* VALIDATES THAT 翻译正确"
+                          }
+                        }
+                      },
+                      {
+                        "type": "Sentence",
+                        "content": {
+                          "name": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "description": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "content": {
+                            "type": "<string>",
+                            "content": "编译器调用mkprogram来生成Clight C程序"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "type": "Generalization",
+          "content": {
+            "name": {
+              "type": "<string>",
+              "content": ""
+            },
+            "description": {
+              "type": "<string>",
+              "content": ""
+            }
+          }
+        },
+        {
+          "type": "Relationship",
+          "content": {
+            "useCase": "&5",
+            "name": {
+              "type": "<string>",
+              "content": ""
+            },
+            "description": {
+              "type": "<string>",
+              "content": ""
+            }
+          }
+        },
+        {
+          "type": "Relationship",
+          "content": {
+            "useCase": "&7",
+            "name": {
+              "type": "<string>",
+              "content": ""
+            },
+            "description": {
+              "type": "<string>",
+              "content": ""
+            }
+          }
+        },
+        {
+          "type": "Relationship",
+          "content": {
+            "useCase": "&8",
+            "name": {
+              "type": "<string>",
+              "content": ""
+            },
+            "description": {
+              "type": "<string>",
+              "content": ""
+            }
+          }
+        },
+        {
+          "type": "UseCase",
+          "content": {
+            "name": {
+              "type": "<string>",
+              "content": "生成目标文件"
+            },
+            "description": {
+              "type": "<string>",
+              "content": ""
+            },
+            "specification": {
+              "type": "UseCaseSpecification",
+              "content": {
+                "alternativeFlows": [{
+                  "type": "SpecificAlternative",
+                  "content": {
+                    "postCondition": {
+                      "type": "PostCondition",
+                      "content": {
+                        "sentences": [{
+                          "type": "Sentence",
+                          "content": {
+                            "name": {
+                              "type": "<string>",
+                              "content": ""
+                            },
+                            "description": {
+                              "type": "<string>",
+                              "content": ""
+                            },
+                            "content": {
+                              "type": "<string>",
+                              "content": "编译器退出"
+                            }
+                          }
+                        }],
+                        "name": {
+                          "type": "<string>",
+                          "content": ""
+                        },
+                        "description": {
+                          "type": "<string>",
+                          "content": ""
+                        }
+                      }
+                    },
+                    "rfsSentence": {
+                      "type": "Sentence",
+                      "content": {
+                        "natures": [{
+                          "type": "RFSNature",
+                          "content": {
+                            "flowName": {
+                              "type": "<string>",
+                              "content": ""
+                            },
+                            "segments": [{
+                              "type": "RFSNatureSegment",
+                              "content": {
+                                "toStep": {
+                                  "type": "<int>",
+                                  "content": 3
+                                },
+                                "fromStep": {
+                                  "type": "<int>",
+                                  "content": 3
+                                }
+                              }
+                            }]
+                          }
+                        }],
+                        "name": {
+                          "type": "<string>",
+                          "content": ""
+                        },
+                        "description": {
+                          "type": "<string>",
+                          "content": ""
+                        },
+                        "content": {
+                          "type": "<string>",
+                          "content": "RFS 3"
+                        }
+                      }
+                    },
+                    "name": {
+                      "type": "<string>",
+                      "content": "失败流程"
+                    },
+                    "description": {
+                      "type": "<string>",
+                      "content": ""
+                    },
+                    "steps": [
+                      {
+                        "type": "Sentence",
+                        "content": {
+                          "name": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "description": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "content": {
+                            "type": "<string>",
+                            "content": "汇编器报出汇编错误"
+                          }
+                        }
+                      },
+                      {
+                        "type": "Sentence",
+                        "content": {
+                          "natures": [{
+                            "type": "AbortNature",
+                            "content": {}
+                          }],
+                          "name": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "description": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "content": {
+                            "type": "<string>",
+                            "content": "ABORT"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }],
+                "name": {
+                  "type": "<string>",
+                  "content": ""
+                },
+                "description": {
+                  "type": "<string>",
+                  "content": ""
+                },
+                "primaryActor": "&0",
+                "preCondition": {
+                  "type": "PreCondition",
+                  "content": {
+                    "sentences": [{
+                      "type": "Sentence",
+                      "content": {
+                        "name": {
+                          "type": "<string>",
+                          "content": ""
+                        },
+                        "description": {
+                          "type": "<string>",
+                          "content": ""
+                        },
+                        "content": {
+                          "type": "<string>",
+                          "content": "生成的ASM抽象语法树"
+                        }
+                      }
+                    }],
+                    "name": {
+                      "type": "<string>",
+                      "content": ""
+                    },
+                    "description": {
+                      "type": "<string>",
+                      "content": ""
+                    }
+                  }
+                },
+                "briefDescription": {
+                  "type": "BriefDescription",
+                  "content": {
+                    "sentences": [{
+                      "type": "Sentence",
+                      "content": {
+                        "name": {
+                          "type": "<string>",
+                          "content": ""
+                        },
+                        "description": {
+                          "type": "<string>",
+                          "content": ""
+                        },
+                        "content": {
+                          "type": "<string>",
+                          "content": "将汇编代码进行汇编，得到目标文件"
+                        }
+                      }
+                    }],
+                    "name": {
+                      "type": "<string>",
+                      "content": ""
+                    },
+                    "description": {
+                      "type": "<string>",
+                      "content": ""
+                    }
+                  }
+                },
+                "basicFlow": {
+                  "type": "BasicFlow",
+                  "content": {
+                    "postCondition": {
+                      "type": "PostCondition",
+                      "content": {
+                        "sentences": [{
+                          "type": "Sentence",
+                          "content": {
+                            "name": {
+                              "type": "<string>",
+                              "content": ""
+                            },
+                            "description": {
+                              "type": "<string>",
+                              "content": ""
+                            },
+                            "content": {
+                              "type": "<string>",
+                              "content": "编译器生成目标文件"
+                            }
+                          }
+                        }],
+                        "name": {
+                          "type": "<string>",
+                          "content": ""
+                        },
+                        "description": {
+                          "type": "<string>",
+                          "content": ""
+                        }
+                      }
+                    },
+                    "name": {
+                      "type": "<string>",
+                      "content": "主流程"
+                    },
+                    "description": {
+                      "type": "<string>",
+                      "content": ""
+                    },
+                    "steps": [
+                      {
+                        "type": "Sentence",
+                        "content": {
+                          "name": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "description": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "content": {
+                            "type": "<string>",
+                            "content": "编译器输出ASM抽象语法树为文件"
+                          }
+                        }
+                      },
+                      {
+                        "type": "Sentence",
+                        "content": {
+                          "name": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "description": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "content": {
+                            "type": "<string>",
+                            "content": "编译器调用汇编器对文件进行汇编"
+                          }
+                        }
+                      },
+                      {
+                        "type": "Sentence",
+                        "content": {
+                          "natures": [{
+                            "type": "ValidateThatNature",
+                            "content": {
+                              "subject": {
+                                "type": "<string>",
+                                "content": "汇编器"
+                              },
+                              "object": {
+                                "type": "<string>",
+                                "content": "汇编成功"
+                              }
+                            }
+                          }],
+                          "name": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "description": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "content": {
+                            "type": "<string>",
+                            "content": "汇编器 VALIDATES THAT 汇编成功"
+                          }
+                        }
+                      },
+                      {
+                        "type": "Sentence",
+                        "content": {
+                          "name": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "description": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "content": {
+                            "type": "<string>",
+                            "content": "编译器得到目标文件"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "type": "UseCase",
+          "content": {
+            "name": {
+              "type": "<string>",
+              "content": "语义等价性检查"
+            },
+            "description": {
+              "type": "<string>",
+              "content": ""
+            },
+            "specification": {
+              "type": "UseCaseSpecification",
+              "content": {
+                "secondaryActors": ["&0"],
+                "name": {
+                  "type": "<string>",
+                  "content": ""
+                },
+                "description": {
+                  "type": "<string>",
+                  "content": ""
+                },
+                "primaryActor": "&2",
+                "preCondition": {
+                  "type": "PreCondition",
+                  "content": {
+                    "sentences": [{
+                      "type": "Sentence",
+                      "content": {
+                        "name": {
+                          "type": "<string>",
+                          "content": ""
+                        },
+                        "description": {
+                          "type": "<string>",
+                          "content": ""
+                        },
+                        "content": {
+                          "type": "<string>",
+                          "content": "需要转换的程序语言以及语言之间的转换函数"
+                        }
+                      }
+                    }],
+                    "name": {
+                      "type": "<string>",
+                      "content": ""
+                    },
+                    "description": {
+                      "type": "<string>",
+                      "content": ""
+                    }
+                  }
+                },
+                "briefDescription": {
+                  "type": "BriefDescription",
+                  "content": {
+                    "sentences": [{
+                      "type": "Sentence",
+                      "content": {
+                        "name": {
+                          "type": "<string>",
+                          "content": ""
+                        },
+                        "description": {
+                          "type": "<string>",
+                          "content": ""
+                        },
+                        "content": {
+                          "type": "<string>",
+                          "content": "对程序语言之间的转换进行语义保持验证"
+                        }
+                      }
+                    }],
+                    "name": {
+                      "type": "<string>",
+                      "content": ""
+                    },
+                    "description": {
+                      "type": "<string>",
+                      "content": ""
+                    }
+                  }
+                },
+                "basicFlow": {
+                  "type": "BasicFlow",
+                  "content": {
+                    "postCondition": {
+                      "type": "PostCondition",
+                      "content": {
+                        "sentences": [{
+                          "type": "Sentence",
+                          "content": {
+                            "name": {
+                              "type": "<string>",
+                              "content": ""
+                            },
+                            "description": {
+                              "type": "<string>",
+                              "content": ""
+                            },
+                            "content": {
+                              "type": "<string>",
+                              "content": "判定转换过程没有语义损失"
+                            }
+                          }
+                        }],
+                        "name": {
+                          "type": "<string>",
+                          "content": ""
+                        },
+                        "description": {
+                          "type": "<string>",
+                          "content": ""
+                        }
+                      }
+                    },
+                    "name": {
+                      "type": "<string>",
+                      "content": "主流程"
+                    },
+                    "description": {
+                      "type": "<string>",
+                      "content": ""
+                    },
+                    "steps": [
+                      {
+                        "type": "Sentence",
+                        "content": {
+                          "name": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "description": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "content": {
+                            "type": "<string>",
+                            "content": "声明需转换语言的可观测行为"
+                          }
+                        }
+                      },
+                      {
+                        "type": "Sentence",
+                        "content": {
+                          "name": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "description": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "content": {
+                            "type": "<string>",
+                            "content": "使用分离逻辑对原语言和转换后的语言的语义进行形式化建模"
+                          }
+                        }
+                      },
+                      {
+                        "type": "Sentence",
+                        "content": {
+                          "name": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "description": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "content": {
+                            "type": "<string>",
+                            "content": "使用Coq对转换函数进行证明，证明转化函数转换完成之后的语言的代码里的可观测行为与原语言的代码里的可观测行为一致"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "type": "Actor",
+          "content": {
+            "name": {
+              "type": "<string>",
+              "content": "程序员"
+            },
+            "description": {
+              "type": "<string>",
+              "content": ""
+            }
+          }
+        },
+        {
+          "type": "Actor",
+          "content": {
+            "name": {
+              "type": "<string>",
+              "content": "需要纯C文件程序员"
+            },
+            "description": {
+              "type": "<string>",
+              "content": ""
+            }
+          }
+        },
+        {
+          "type": "Actor",
+          "content": {
+            "name": {
+              "type": "<string>",
+              "content": "需要目标文件程序员"
+            },
+            "description": {
+              "type": "<string>",
+              "content": ""
+            }
+          }
+        },
+        {
+          "type": "Actor",
+          "content": {
+            "name": {
+              "type": "<string>",
+              "content": "需要可执行文件程序员"
+            },
+            "description": {
+              "type": "<string>",
+              "content": ""
+            }
+          }
+        },
+        {
+          "type": "Generalization",
+          "content": {
+            "general": "&9",
+            "name": {
+              "type": "<string>",
+              "content": ""
+            },
+            "description": {
+              "type": "<string>",
+              "content": ""
+            },
+            "specific": "&1"
+          }
+        },
+        {
+          "type": "Generalization",
+          "content": {
+            "general": "&9",
+            "name": {
+              "type": "<string>",
+              "content": ""
+            },
+            "description": {
+              "type": "<string>",
+              "content": ""
+            },
+            "specific": "&2"
+          }
+        },
+        {
+          "type": "Generalization",
+          "content": {
+            "general": "&9",
+            "name": {
+              "type": "<string>",
+              "content": ""
+            },
+            "description": {
+              "type": "<string>",
+              "content": ""
+            },
+            "specific": "&0"
+          }
+        },
+        {
+          "type": "Relationship",
+          "content": {
+            "actor": "&1",
+            "useCase": "&10",
+            "name": {
+              "type": "<string>",
+              "content": ""
+            },
+            "description": {
+              "type": "<string>",
+              "content": ""
+            }
+          }
+        },
+        {
+          "type": "Relationship",
+          "content": {
+            "actor": "&2",
+            "useCase": "&10",
+            "name": {
+              "type": "<string>",
+              "content": ""
+            },
+            "description": {
+              "type": "<string>",
+              "content": ""
+            }
+          }
+        },
+        {
+          "type": "Relationship",
+          "content": {
+            "actor": "&2",
+            "useCase": "&11",
+            "name": {
+              "type": "<string>",
+              "content": ""
+            },
+            "description": {
+              "type": "<string>",
+              "content": ""
+            }
+          }
+        },
+        {
+          "type": "Relationship",
+          "content": {
+            "actor": "&2",
+            "useCase": "&12",
+            "name": {
+              "type": "<string>",
+              "content": ""
+            },
+            "description": {
+              "type": "<string>",
+              "content": ""
+            }
+          }
+        },
+        {
+          "type": "Relationship",
+          "content": {
+            "actor": "&2",
+            "useCase": "&13",
+            "name": {
+              "type": "<string>",
+              "content": ""
+            },
+            "description": {
+              "type": "<string>",
+              "content": ""
+            }
+          }
+        },
+        {
+          "type": "Relationship",
+          "content": {
+            "actor": "&2",
+            "useCase": "&14",
+            "name": {
+              "type": "<string>",
+              "content": ""
+            },
+            "description": {
+              "type": "<string>",
+              "content": ""
+            }
+          }
+        },
+        {
+          "type": "Relationship",
+          "content": {
+            "actor": "&2",
+            "useCase": "&5",
+            "name": {
+              "type": "<string>",
+              "content": ""
+            },
+            "description": {
+              "type": "<string>",
+              "content": ""
+            }
+          }
+        },
+        {
+          "type": "Relationship",
+          "content": {
+            "actor": "&2",
+            "useCase": "&7",
+            "name": {
+              "type": "<string>",
+              "content": ""
+            },
+            "description": {
+              "type": "<string>",
+              "content": ""
+            }
+          }
+        },
+        {
+          "type": "Actor",
+          "content": {
+            "name": {
+              "type": "<string>",
+              "content": "程序员"
+            },
+            "description": {
+              "type": "<string>",
+              "content": ""
+            }
+          }
+        },
+        {
+          "type": "Generalization",
+          "content": {
+            "general": "&1",
+            "name": {
+              "type": "<string>",
+              "content": ""
+            },
+            "description": {
+              "type": "<string>",
+              "content": ""
+            },
+            "specific": "&15"
+          }
+        },
+        {
+          "type": "Generalization",
+          "content": {
+            "general": "&2",
+            "name": {
+              "type": "<string>",
+              "content": ""
+            },
+            "description": {
+              "type": "<string>",
+              "content": ""
+            },
+            "specific": "&15"
+          }
+        },
+        {
+          "type": "Generalization",
+          "content": {
+            "general": "&0",
+            "name": {
+              "type": "<string>",
+              "content": ""
+            },
+            "description": {
+              "type": "<string>",
+              "content": ""
+            },
+            "specific": "&15"
+          }
+        },
+        {
+          "type": "UseCase",
+          "content": {
+            "include": [
+              {
+                "type": "Include",
+                "content": {
+                  "name": {
+                    "type": "<string>",
+                    "content": ""
+                  },
+                  "description": {
+                    "type": "<string>",
+                    "content": ""
+                  },
+                  "addition": "&10",
+                  "includingCase": "&16"
+                }
+              },
+              {
+                "type": "Include",
+                "content": {
+                  "name": {
+                    "type": "<string>",
+                    "content": ""
+                  },
+                  "description": {
+                    "type": "<string>",
+                    "content": ""
+                  },
+                  "addition": "&11",
+                  "includingCase": "&16"
+                }
+              },
+              {
+                "type": "Include",
+                "content": {
+                  "name": {
+                    "type": "<string>",
+                    "content": ""
+                  },
+                  "description": {
+                    "type": "<string>",
+                    "content": ""
+                  },
+                  "addition": "&13",
+                  "includingCase": "&16"
+                }
+              },
+              {
+                "type": "Include",
+                "content": {
+                  "name": {
+                    "type": "<string>",
+                    "content": ""
+                  },
+                  "description": {
+                    "type": "<string>",
+                    "content": ""
+                  },
+                  "addition": "&12",
+                  "includingCase": "&16"
+                }
+              },
+              {
+                "type": "Include",
+                "content": {
+                  "name": {
+                    "type": "<string>",
+                    "content": ""
+                  },
+                  "description": {
+                    "type": "<string>",
+                    "content": ""
+                  },
+                  "addition": "&14",
+                  "includingCase": "&16"
+                }
+              },
+              {
+                "type": "Include",
+                "content": {
+                  "name": {
+                    "type": "<string>",
+                    "content": ""
+                  },
+                  "description": {
+                    "type": "<string>",
+                    "content": ""
+                  },
+                  "addition": "&5",
+                  "includingCase": "&16"
+                }
+              },
+              {
+                "type": "Include",
+                "content": {
+                  "name": {
+                    "type": "<string>",
+                    "content": ""
+                  },
+                  "description": {
+                    "type": "<string>",
+                    "content": ""
+                  },
+                  "addition": "&7",
+                  "includingCase": "&16"
+                }
+              },
+              {
+                "type": "Include",
+                "content": {
+                  "name": {
+                    "type": "<string>",
+                    "content": ""
+                  },
+                  "description": {
+                    "type": "<string>",
+                    "content": ""
+                  },
+                  "addition": "&17",
+                  "includingCase": "&16"
+                }
+              }
+            ],
+            "name": {
+              "type": "<string>",
+              "content": "编译"
+            },
+            "description": {
+              "type": "<string>",
+              "content": ""
+            },
+            "specification": {
+              "type": "UseCaseSpecification",
+              "content": {
+                "name": {
+                  "type": "<string>",
+                  "content": ""
+                },
+                "description": {
+                  "type": "<string>",
+                  "content": ""
+                },
+                "primaryActor": "&2",
+                "preCondition": {
+                  "type": "PreCondition",
+                  "content": {
+                    "sentences": [{
+                      "type": "Sentence",
+                      "content": {
+                        "name": {
+                          "type": "<string>",
+                          "content": ""
+                        },
+                        "description": {
+                          "type": "<string>",
+                          "content": ""
+                        },
+                        "content": {
+                          "type": "<string>",
+                          "content": "输入C语言文件"
+                        }
+                      }
+                    }],
+                    "name": {
+                      "type": "<string>",
+                      "content": ""
+                    },
+                    "description": {
+                      "type": "<string>",
+                      "content": ""
+                    }
+                  }
+                },
+                "briefDescription": {
+                  "type": "BriefDescription",
+                  "content": {
+                    "sentences": [{
+                      "type": "Sentence",
+                      "content": {
+                        "name": {
+                          "type": "<string>",
+                          "content": ""
+                        },
+                        "description": {
+                          "type": "<string>",
+                          "content": ""
+                        },
+                        "content": {
+                          "type": "<string>",
+                          "content": "将C源文件进行编译"
+                        }
+                      }
+                    }],
+                    "name": {
+                      "type": "<string>",
+                      "content": ""
+                    },
+                    "description": {
+                      "type": "<string>",
+                      "content": ""
+                    }
+                  }
+                },
+                "basicFlow": {
+                  "type": "BasicFlow",
+                  "content": {
+                    "postCondition": {
+                      "type": "PostCondition",
+                      "content": {
+                        "sentences": [{
+                          "type": "Sentence",
+                          "content": {
+                            "name": {
+                              "type": "<string>",
+                              "content": ""
+                            },
+                            "description": {
+                              "type": "<string>",
+                              "content": ""
+                            },
+                            "content": {
+                              "type": "<string>",
+                              "content": "产生目标文件"
+                            }
+                          }
+                        }],
+                        "name": {
+                          "type": "<string>",
+                          "content": ""
+                        },
+                        "description": {
+                          "type": "<string>",
+                          "content": ""
+                        }
+                      }
+                    },
+                    "name": {
+                      "type": "<string>",
+                      "content": ""
+                    },
+                    "description": {
+                      "type": "<string>",
+                      "content": ""
+                    },
+                    "steps": [
+                      {
+                        "type": "Sentence",
+                        "content": {
+                          "natures": [{
+                            "type": "IncludeUCNature",
+                            "content": {"useCaseName": {
+                              "type": "<string>",
+                              "content": "预处理"
+                            }}
+                          }],
+                          "name": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "description": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "content": {
+                            "type": "<string>",
+                            "content": "INCLUDE USE CASE 预处理"
+                          }
+                        }
+                      },
+                      {
+                        "type": "Sentence",
+                        "content": {
+                          "natures": [{
+                            "type": "IncludeUCNature",
+                            "content": {"useCaseName": {
+                              "type": "<string>",
+                              "content": "词法分析"
+                            }}
+                          }],
+                          "name": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "description": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "content": {
+                            "type": "<string>",
+                            "content": "INCLUDE USE CASE 词法分析"
+                          }
+                        }
+                      },
+                      {
+                        "type": "Sentence",
+                        "content": {
+                          "natures": [{
+                            "type": "IncludeUCNature",
+                            "content": {"useCaseName": {
+                              "type": "<string>",
+                              "content": "语法分析"
+                            }}
+                          }],
+                          "name": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "description": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "content": {
+                            "type": "<string>",
+                            "content": "INCLUDE USE CASE 语法分析"
+                          }
+                        }
+                      },
+                      {
+                        "type": "Sentence",
+                        "content": {
+                          "natures": [{
+                            "type": "IncludeUCNature",
+                            "content": {"useCaseName": {
+                              "type": "<string>",
+                              "content": "类型检查"
+                            }}
+                          }],
+                          "name": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "description": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "content": {
+                            "type": "<string>",
+                            "content": "INCLUDE USE CASE 类型检查"
+                          }
+                        }
+                      },
+                      {
+                        "type": "Sentence",
+                        "content": {
+                          "natures": [{
+                            "type": "IncludeUCNature",
+                            "content": {"useCaseName": {
+                              "type": "<string>",
+                              "content": "简化"
+                            }}
+                          }],
+                          "name": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "description": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "content": {
+                            "type": "<string>",
+                            "content": "INCLUDE USE CASE 简化"
+                          }
+                        }
+                      },
+                      {
+                        "type": "Sentence",
+                        "content": {
+                          "natures": [{
+                            "type": "IncludeUCNature",
+                            "content": {"useCaseName": {
+                              "type": "<string>",
+                              "content": "中间代码转换"
+                            }}
+                          }],
+                          "name": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "description": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "content": {
+                            "type": "<string>",
+                            "content": "INCLUDE USE CASE 中间代码转换"
+                          }
+                        }
+                      },
+                      {
+                        "type": "Sentence",
+                        "content": {
+                          "natures": [{
+                            "type": "IncludeUCNature",
+                            "content": {"useCaseName": {
+                              "type": "<string>",
+                              "content": "生成汇编语法树"
+                            }}
+                          }],
+                          "name": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "description": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "content": {
+                            "type": "<string>",
+                            "content": "INCLUDE USE CASE 生成汇编语法树"
+                          }
+                        }
+                      },
+                      {
+                        "type": "Sentence",
+                        "content": {
+                          "natures": [{
+                            "type": "IncludeUCNature",
+                            "content": {"useCaseName": {
+                              "type": "<string>",
+                              "content": "生成目标文件"
+                            }}
+                          }],
+                          "name": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "description": {
+                            "type": "<string>",
+                            "content": ""
+                          },
+                          "content": {
+                            "type": "<string>",
+                            "content": "INCLUDE USE CASE 生成目标文件"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "type": "Relationship",
+          "content": {
+            "actor": "&2",
+            "useCase": "&16",
+            "name": {
+              "type": "<string>",
+              "content": ""
+            },
+            "description": {
+              "type": "<string>",
+              "content": ""
+            }
+          }
+        },
+        {
+          "type": "Relationship",
+          "content": {
+            "actor": "&0",
+            "useCase": "&3",
+            "name": {
+              "type": "<string>",
+              "content": ""
+            },
+            "description": {
+              "type": "<string>",
+              "content": ""
+            }
+          }
+        }
+      ],
+      "diagrams": [{
+        "type": "UCDiagram",
+        "content": {
+          "ucModel": "&18",
+          "nodes": [
+            {
+              "type": "UCDUseCaseNode",
+              "content": {
+                "useCase": "&3",
+                "top": {
+                  "type": "<int>",
+                  "content": 606
+                },
+                "left": {
+                  "type": "<int>",
+                  "content": 379
+                },
+                "width": {
+                  "type": "<int>",
+                  "content": 140
+                },
+                "height": {
+                  "type": "<int>",
+                  "content": 70
+                }
+              }
+            },
+            {
+              "type": "UCDUseCaseNode",
+              "content": {
+                "useCase": "&10",
+                "top": {
+                  "type": "<int>",
+                  "content": 80
+                },
+                "left": {
+                  "type": "<int>",
+                  "content": 352
+                },
+                "width": {
+                  "type": "<int>",
+                  "content": 140
+                },
+                "height": {
+                  "type": "<int>",
+                  "content": 70
+                }
+              }
+            },
+            {
+              "type": "UCDUseCaseNode",
+              "content": {
+                "useCase": "&11",
+                "top": {
+                  "type": "<int>",
+                  "content": 103
+                },
+                "left": {
+                  "type": "<int>",
+                  "content": 629
+                },
+                "width": {
+                  "type": "<int>",
+                  "content": 140
+                },
+                "height": {
+                  "type": "<int>",
+                  "content": 70
+                }
+              }
+            },
+            {
+              "type": "UCDUseCaseNode",
+              "content": {
+                "useCase": "&13",
+                "top": {
+                  "type": "<int>",
+                  "content": 195
+                },
+                "left": {
+                  "type": "<int>",
+                  "content": 642
+                },
+                "width": {
+                  "type": "<int>",
+                  "content": 140
+                },
+                "height": {
+                  "type": "<int>",
+                  "content": 70
+                }
+              }
+            },
+            {
+              "type": "UCDUseCaseNode",
+              "content": {
+                "useCase": "&5",
+                "top": {
+                  "type": "<int>",
+                  "content": 454
+                },
+                "left": {
+                  "type": "<int>",
+                  "content": 664
+                },
+                "width": {
+                  "type": "<int>",
+                  "content": 140
+                },
+                "height": {
+                  "type": "<int>",
+                  "content": 70
+                }
+              }
+            },
+            {
+              "type": "UCDUseCaseNode",
+              "content": {
+                "useCase": "&7",
+                "top": {
+                  "type": "<int>",
+                  "content": 531
+                },
+                "left": {
+                  "type": "<int>",
+                  "content": 675
+                },
+                "width": {
+                  "type": "<int>",
+                  "content": 140
+                },
+                "height": {
+                  "type": "<int>",
+                  "content": 70
+                }
+              }
+            },
+            {
+              "type": "UCDUseCaseNode",
+              "content": {
+                "useCase": "&12",
+                "top": {
+                  "type": "<int>",
+                  "content": 289
+                },
+                "left": {
+                  "type": "<int>",
+                  "content": 653
+                },
+                "width": {
+                  "type": "<int>",
+                  "content": 140
+                },
+                "height": {
+                  "type": "<int>",
+                  "content": 70
+                }
+              }
+            },
+            {
+              "type": "UCDUseCaseNode",
+              "content": {
+                "useCase": "&14",
+                "top": {
+                  "type": "<int>",
+                  "content": 368
+                },
+                "left": {
+                  "type": "<int>",
+                  "content": 658
+                },
+                "width": {
+                  "type": "<int>",
+                  "content": 140
+                },
+                "height": {
+                  "type": "<int>",
+                  "content": 70
+                }
+              }
+            },
+            {
+              "type": "UCDUseCaseNode",
+              "content": {
+                "useCase": "&17",
+                "top": {
+                  "type": "<int>",
+                  "content": 623
+                },
+                "left": {
+                  "type": "<int>",
+                  "content": 683
+                },
+                "width": {
+                  "type": "<int>",
+                  "content": 140
+                },
+                "height": {
+                  "type": "<int>",
+                  "content": 70
+                }
+              }
+            },
+            {
+              "type": "UCDUseCaseNode",
+              "content": {
+                "useCase": "&4",
+                "top": {
+                  "type": "<int>",
+                  "content": 451
+                },
+                "left": {
+                  "type": "<int>",
+                  "content": 922
+                },
+                "width": {
+                  "type": "<int>",
+                  "content": 140
+                },
+                "height": {
+                  "type": "<int>",
+                  "content": 70
+                }
+              }
+            },
+            {
+              "type": "UCDActorNode",
+              "content": {
+                "actor": "&1",
+                "top": {
+                  "type": "<int>",
+                  "content": 97
+                },
+                "left": {
+                  "type": "<int>",
+                  "content": 102
+                },
+                "width": {
+                  "type": "<int>",
+                  "content": 154
+                },
+                "height": {
+                  "type": "<int>",
+                  "content": 90
+                }
+              }
+            },
+            {
+              "type": "UCDActorNode",
+              "content": {
+                "actor": "&2",
+                "top": {
+                  "type": "<int>",
+                  "content": 361
+                },
+                "left": {
+                  "type": "<int>",
+                  "content": 133
+                },
+                "width": {
+                  "type": "<int>",
+                  "content": 154
+                },
+                "height": {
+                  "type": "<int>",
+                  "content": 90
+                }
+              }
+            },
+            {
+              "type": "UCDActorNode",
+              "content": {
+                "actor": "&0",
+                "top": {
+                  "type": "<int>",
+                  "content": 609
+                },
+                "left": {
+                  "type": "<int>",
+                  "content": 126
+                },
+                "width": {
+                  "type": "<int>",
+                  "content": 165
+                },
+                "height": {
+                  "type": "<int>",
+                  "content": 90
+                }
+              }
+            },
+            {
+              "type": "UCDActorNode",
+              "content": {
+                "actor": "&15",
+                "top": {
+                  "type": "<int>",
+                  "content": 393
+                },
+                "left": {
+                  "type": "<int>",
+                  "content": 12
+                },
+                "width": {
+                  "type": "<int>",
+                  "content": 59
+                },
+                "height": {
+                  "type": "<int>",
+                  "content": 90
+                }
+              }
+            },
+            {
+              "type": "UCDUseCaseNode",
+              "content": {
+                "useCase": "&16",
+                "top": {
+                  "type": "<int>",
+                  "content": 356
+                },
+                "left": {
+                  "type": "<int>",
+                  "content": 351
+                },
+                "width": {
+                  "type": "<int>",
+                  "content": 140
+                },
+                "height": {
+                  "type": "<int>",
+                  "content": 70
+                }
+              }
+            }
+          ],
+          "top": {
+            "type": "<int>",
+            "content": 0
+          },
+          "left": {
+            "type": "<int>",
+            "content": 0
+          },
+          "width": {
+            "type": "<int>",
+            "content": 0
+          },
+          "name": {
+            "type": "<string>",
+            "content": ""
+          },
+          "links": [
+            {
+              "type": "UCDIncludeLink",
+              "content": {
+                "include": "&20",
+                "node2": "&21",
+                "node1": "&19"
+              }
+            },
+            {
+              "type": "UCDRelationshipLink",
+              "content": {
+                "node2": "&24",
+                "relationship": "&22",
+                "node1": "&23"
+              }
+            },
+            {
+              "type": "UCDGeneralizationLink",
+              "content": {
+                "node2": "&23",
+                "generalization": "&26",
+                "node1": "&25"
+              }
+            },
+            {
+              "type": "UCDGeneralizationLink",
+              "content": {
+                "node2": "&28",
+                "generalization": "&27",
+                "node1": "&25"
+              }
+            },
+            {
+              "type": "UCDGeneralizationLink",
+              "content": {
+                "node2": "&30",
+                "generalization": "&29",
+                "node1": "&25"
+              }
+            },
+            {
+              "type": "UCDRelationshipLink",
+              "content": {
+                "node2": "&32",
+                "relationship": "&31",
+                "node1": "&28"
+              }
+            },
+            {
+              "type": "UCDIncludeLink",
+              "content": {
+                "include": "&33",
+                "node2": "&24",
+                "node1": "&32"
+              }
+            },
+            {
+              "type": "UCDIncludeLink",
+              "content": {
+                "include": "&34",
+                "node2": "&35",
+                "node1": "&32"
+              }
+            },
+            {
+              "type": "UCDIncludeLink",
+              "content": {
+                "include": "&36",
+                "node2": "&37",
+                "node1": "&32"
+              }
+            },
+            {
+              "type": "UCDIncludeLink",
+              "content": {
+                "include": "&38",
+                "node2": "&39",
+                "node1": "&32"
+              }
+            },
+            {
+              "type": "UCDIncludeLink",
+              "content": {
+                "include": "&40",
+                "node2": "&41",
+                "node1": "&32"
+              }
+            },
+            {
+              "type": "UCDIncludeLink",
+              "content": {
+                "include": "&42",
+                "node2": "&19",
+                "node1": "&32"
+              }
+            },
+            {
+              "type": "UCDIncludeLink",
+              "content": {
+                "include": "&43",
+                "node2": "&44",
+                "node1": "&32"
+              }
+            },
+            {
+              "type": "UCDIncludeLink",
+              "content": {
+                "include": "&45",
+                "node2": "&46",
+                "node1": "&32"
+              }
+            },
+            {
+              "type": "UCDRelationshipLink",
+              "content": {
+                "node2": "&48",
+                "relationship": "&47",
+                "node1": "&30"
+              }
+            }
+          ],
+          "height": {
+            "type": "<int>",
+            "content": 0
+          }
+        }
+      }]
+    }
+  }
+}
