@@ -1,3 +1,4 @@
+#define MYFILE stderr
 #include"mac.h"
 #include<stdio.h>
 
@@ -5,10 +6,10 @@ int main()
 {
 
 
-#define MYFILE stderr
+
 myprintf(TO_STRING(this is a test message!));
 #undef MYFILE
-myprintf("\n");
+printf("\n");
 
 
 printf("N=2+3,N*N=%d\n",N*N);
