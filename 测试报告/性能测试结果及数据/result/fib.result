@@ -1,0 +1,9 @@
+fib gcc -o :
+fib(36) = 24157817
+time=0.091830
+fib gcc -o2 :
+fib(36) = 24157817
+time=0.068060
+fib ccomp -o : 
+fib(36) = 24157817
+time=0.091856

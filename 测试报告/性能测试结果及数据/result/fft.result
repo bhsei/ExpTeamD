@@ -1,0 +1,9 @@
+fft gcc -o :
+262144 points, result OK
+time=0.077476
+fft gcc -o2 :
+262144 points, result OK
+time=0.058522
+fft ccomp -o : 
+262144 points, result OK
+time=0.070101

@@ -1,0 +1,15 @@
+nsievebits gcc -o :
+Primes up to  5120000   356244
+Primes up to  2560000   187134
+Primes up to  1280000    98610
+time=0.109580
+nsievebits gcc -o2 :
+Primes up to  5120000   356244
+Primes up to  2560000   187134
+Primes up to  1280000    98610
+time=0.045369
+nsievebits ccomp -o : 
+Primes up to  5120000   356244
+Primes up to  2560000   187134
+Primes up to  1280000    98610
+time=0.055370

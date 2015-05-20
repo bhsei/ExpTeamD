@@ -1,0 +1,12 @@
+sha1 gcc -o :
+Test `abc': passed
+Test `abcdbcdecdefdefgefghfghighijhijkijkljklmklmnlmnomnopnopq': passed
+time=0.465295
+sha1 gcc -o2 :
+Test `abc': passed
+Test `abcdbcdecdefdefgefghfghighijhijkijkljklmklmnlmnomnopnopq': passed
+time=0.273000
+sha1 ccomp -o : 
+Test `abc': passed
+Test `abcdbcdecdefdefgefghfghighijhijkijkljklmklmnlmnomnopnopq': passed
+time=0.371387

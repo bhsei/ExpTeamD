@@ -1,0 +1,24 @@
+aes gcc -o :
+Encryption test 1 passed
+Decryption test 2 passed
+Encryption test 3 passed
+Decryption test 4 passed
+Encryption test 5 passed
+Decryption test 6 passed
+time=1.081761
+aes gcc -o2 :
+Encryption test 1 passed
+Decryption test 2 passed
+Encryption test 3 passed
+Decryption test 4 passed
+Encryption test 5 passed
+Decryption test 6 passed
+time=0.551449
+aes ccomp -o : 
+Encryption test 1 passed
+Decryption test 2 passed
+Encryption test 3 passed
+Decryption test 4 passed
+Encryption test 5 passed
+Decryption test 6 passed
+time=0.721124

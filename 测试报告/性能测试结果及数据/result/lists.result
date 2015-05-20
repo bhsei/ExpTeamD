@@ -1,0 +1,12 @@
+lists gcc -o :
+OK
+OK
+time=0.844613
+lists gcc -o2 :
+OK
+OK
+time=0.270663
+lists ccomp -o : 
+OK
+OK
+time=0.285738

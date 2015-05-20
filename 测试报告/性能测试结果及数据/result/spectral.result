@@ -1,0 +1,9 @@
+spectral gcc -o :
+1.274224153
+time=1.590237
+spectral gcc -o2 :
+1.274224153
+time=0.974778
+spectral ccomp -o : 
+1.274224153
+time=0.975085

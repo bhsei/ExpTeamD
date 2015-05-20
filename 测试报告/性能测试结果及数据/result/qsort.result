@@ -1,0 +1,9 @@
+qsort gcc -o :
+OK
+time=0.330920
+qsort gcc -o2 :
+OK
+time=0.204463
+qsort ccomp -o : 
+OK
+time=0.279344

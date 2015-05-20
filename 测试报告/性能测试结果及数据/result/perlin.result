@@ -1,0 +1,9 @@
+perlin gcc -o :
+1.7556e+02
+time=7.676630
+perlin gcc -o2 :
+1.7556e+02
+time=3.345502
+perlin ccomp -o : 
+1.7556e+02
+time=9.209003
