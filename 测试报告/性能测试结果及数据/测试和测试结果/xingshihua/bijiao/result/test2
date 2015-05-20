@@ -1,0 +1,5 @@
+s = axxxxx in the beginning.
+p is pointed at the 0-th char.
+p is moved ahead by 2 steps
+s = bxxxxx after the operation.
+

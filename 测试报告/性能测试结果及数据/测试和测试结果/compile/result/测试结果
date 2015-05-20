@@ -1,0 +1,11 @@
+funct1.c:3: Error: too many arguments in function call.
+funct1.c:5: Warning: Non-prototype, pre-standard function definition.
+   Converting to prototype form.
+funct1.c:7: Error: not enough arguments in function call.
+2 errors detected.
+/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib32/crt1.o：在函数‘_start’中：
+(.text+0x18)：对‘main’未定义的引用
+funct2.o：在函数‘g’中：
+(.text+0x11)：对‘f’未定义的引用
+collect2: error: ld returned 1 exit status
+

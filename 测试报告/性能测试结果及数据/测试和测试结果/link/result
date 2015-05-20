@@ -1,0 +1,21 @@
+IN main:creating thread 0
+IN main:creating thread 1
+IN main:creating thread 2
+hello i am thread id=1
+hello i am thread id=2
+IN main:creating thread 3
+hello i am thread id=0
+IN main:creating thread 4
+hello i am thread id=3
+IN main:creating thread 5
+hello i am thread id=4
+IN main:creating thread 6
+hello i am thread id=5
+IN main:creating thread 7
+hello i am thread id=6
+IN main:creating thread 8
+hello i am thread id=7
+IN main:creating thread 9
+hello i am thread id=8
+hello i am thread id=9
+
